@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="ASCII"?>
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_wnIjofD2EeaqkrMIF7tLMQ" elementId="org.eclipse.e4.legacy.ide.application" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_wnJKsPD2EeaqkrMIF7tLMQ" bindingContexts="_wnJKsvD2EeaqkrMIF7tLMQ">
-  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;workbench>&#xA;&lt;mruList>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;net.sourceforge.texlipse.TexEditor&quot; name=&quot;design.tex&quot; tooltip=&quot;ru.iu.bachelor.sed.group01.design.report/design.tex&quot;>&#xA;&lt;persistable path=&quot;/ru.iu.bachelor.sed.group01.design.report/design.tex&quot;/>&#xA;&lt;/file>&#xA;&lt;/mruList>&#xA;&lt;/workbench>"/>
-  <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
+  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;workbench>&#xA;&lt;mruList>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;lu.uni.lassy.excalibur.dsl.messir.Messir&quot; name=&quot;environment-actAuthenticated.msr&quot; tooltip=&quot;ru.iu.bachelor.sed.group01.icrash/operations/environment/environment-actAuthenticated.msr&quot;>&#xA;&lt;persistable path=&quot;/ru.iu.bachelor.sed.group01.icrash/operations/environment/environment-actAuthenticated.msr&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;lu.uni.lassy.excalibur.dsl.messir.Messir&quot; name=&quot;environment.msr&quot; tooltip=&quot;ru.iu.bachelor.sed.group01.icrash/environment/environment.msr&quot;>&#xA;&lt;persistable path=&quot;/ru.iu.bachelor.sed.group01.icrash/environment/environment.msr&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;lu.uni.lassy.excalibur.dsl.messir.Messir&quot; name=&quot;secondarytypes-datatypes-dtSpeechRecord-is.msr&quot; tooltip=&quot;ru.iu.bachelor.sed.group01.icrash/operations/concepts/secondarytypes-datatypes/secondarytypes-datatypes-dtSpeechRecord-is.msr&quot;>&#xA;&lt;persistable path=&quot;/ru.iu.bachelor.sed.group01.icrash/operations/concepts/secondarytypes-datatypes/secondarytypes-datatypes-dtSpeechRecord-is.msr&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;lu.uni.lassy.excalibur.dsl.messir.Messir&quot; name=&quot;primarytypes-datatypes-dtBiometrics-is.msr&quot; tooltip=&quot;ru.iu.bachelor.sed.group01.icrash/operations/concepts/primarytypes-datatypes/primarytypes-datatypes-dtBiometrics-is.msr&quot;>&#xA;&lt;persistable path=&quot;/ru.iu.bachelor.sed.group01.icrash/operations/concepts/primarytypes-datatypes/primarytypes-datatypes-dtBiometrics-is.msr&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;lu.uni.lassy.excalibur.dsl.messir.Messir&quot; name=&quot;primarytypes-classes-ctAdministrator.msr&quot; tooltip=&quot;ru.iu.bachelor.sed.group01.icrash/operations/concepts/primarytypes-classes/primarytypes-classes-ctAdministrator.msr&quot;>&#xA;&lt;persistable path=&quot;/ru.iu.bachelor.sed.group01.icrash/operations/concepts/primarytypes-classes/primarytypes-classes-ctAdministrator.msr&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;lu.uni.lassy.excalibur.dsl.messir.Messir&quot; name=&quot;primarytypes-classes-ctCrisis.msr&quot; tooltip=&quot;ru.iu.bachelor.sed.group01.icrash/operations/concepts/primarytypes-classes/primarytypes-classes-ctCrisis.msr&quot;>&#xA;&lt;persistable path=&quot;/ru.iu.bachelor.sed.group01.icrash/operations/concepts/primarytypes-classes/primarytypes-classes-ctCrisis.msr&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;lu.uni.lassy.excalibur.dsl.messir.Messir&quot; name=&quot;primarytypes-classes-ctHuman.msr&quot; tooltip=&quot;ru.iu.bachelor.sed.group01.icrash/operations/concepts/primarytypes-classes/primarytypes-classes-ctHuman.msr&quot;>&#xA;&lt;persistable path=&quot;/ru.iu.bachelor.sed.group01.icrash/operations/concepts/primarytypes-classes/primarytypes-classes-ctHuman.msr&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;lu.uni.lassy.excalibur.dsl.messir.Messir&quot; name=&quot;primarytypes-datatypes-etHumanKind.msr&quot; tooltip=&quot;ru.iu.bachelor.sed.group01.icrash/operations/concepts/primarytypes-datatypes/primarytypes-datatypes-etHumanKind.msr&quot;>&#xA;&lt;persistable path=&quot;/ru.iu.bachelor.sed.group01.icrash/operations/concepts/primarytypes-datatypes/primarytypes-datatypes-etHumanKind.msr&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;lu.uni.lassy.excalibur.dsl.messir.Messir&quot; name=&quot;primarytypes-classes-ctCoordinator.msr&quot; tooltip=&quot;ru.iu.bachelor.sed.group01.icrash/operations/concepts/primarytypes-classes/primarytypes-classes-ctCoordinator.msr&quot;>&#xA;&lt;persistable path=&quot;/ru.iu.bachelor.sed.group01.icrash/operations/concepts/primarytypes-classes/primarytypes-classes-ctCoordinator.msr&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;lu.uni.lassy.excalibur.dsl.messir.Messir&quot; name=&quot;primarytypes-classes-ctAuthenticated.msr&quot; tooltip=&quot;ru.iu.bachelor.sed.group01.icrash/operations/concepts/primarytypes-classes/primarytypes-classes-ctAuthenticated.msr&quot;>&#xA;&lt;persistable path=&quot;/ru.iu.bachelor.sed.group01.icrash/operations/concepts/primarytypes-classes/primarytypes-classes-ctAuthenticated.msr&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;lu.uni.lassy.excalibur.dsl.messir.Messir&quot; name=&quot;primarytypes-classes.msr&quot; tooltip=&quot;ru.iu.bachelor.sed.group01.icrash/concepts/primarytypes-classes.msr&quot;>&#xA;&lt;persistable path=&quot;/ru.iu.bachelor.sed.group01.icrash/concepts/primarytypes-classes.msr&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;lu.uni.lassy.excalibur.dsl.messirdoc.MessirDoc&quot; name=&quot;Operation-etAlertStatus-is.msrd&quot; tooltip=&quot;ru.iu.bachelor.sed.group01.icrash/operations/concepts/documentation/Operation-etAlertStatus-is.msrd&quot;>&#xA;&lt;persistable path=&quot;/ru.iu.bachelor.sed.group01.icrash/operations/concepts/documentation/Operation-etAlertStatus-is.msrd&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;lu.uni.lassy.excalibur.dsl.messir.Messir&quot; name=&quot;primarytypes-associations.msr&quot; tooltip=&quot;ru.iu.bachelor.sed.group01.icrash/concepts/primarytypes-associations.msr&quot;>&#xA;&lt;persistable path=&quot;/ru.iu.bachelor.sed.group01.icrash/concepts/primarytypes-associations.msr&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;lu.uni.lassy.excalibur.dsl.messirdoc.MessirDoc&quot; name=&quot;PrimaryType-Datatype-dtAlertID.msrd&quot; tooltip=&quot;ru.iu.bachelor.sed.group01.icrash/concepts/documentation/PrimaryType-Datatype-dtAlertID.msrd&quot;>&#xA;&lt;persistable path=&quot;/ru.iu.bachelor.sed.group01.icrash/concepts/documentation/PrimaryType-Datatype-dtAlertID.msrd&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;lu.uni.lassy.excalibur.dsl.messir.Messir&quot; name=&quot;primarytypes-datatypes-etBiometricAuthType-is.msr&quot; tooltip=&quot;ru.iu.bachelor.sed.group01.icrash/operations/concepts/primarytypes-datatypes/primarytypes-datatypes-etBiometricAuthType-is.msr&quot;>&#xA;&lt;persistable path=&quot;/ru.iu.bachelor.sed.group01.icrash/operations/concepts/primarytypes-datatypes/primarytypes-datatypes-etBiometricAuthType-is.msr&quot;/>&#xA;&lt;/file>&#xA;&lt;/mruList>&#xA;&lt;/workbench>"/>
   <tags>ModelMigrationProcessor.001</tags>
-  <children xsi:type="basic:TrimmedWindow" xmi:id="_wnJKsPD2EeaqkrMIF7tLMQ" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_xbAQkvD2EeaqkrMIF7tLMQ" label="%trimmedwindow.label.eclipseSDK" x="75" y="34" width="1024" height="768">
+  <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_wnJKsPD2EeaqkrMIF7tLMQ" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_xbAQkvD2EeaqkrMIF7tLMQ" label="%trimmedwindow.label.eclipseSDK" x="75" y="34" width="1024" height="880">
     <persistedState key="coolBarVisible" value="true"/>
     <persistedState key="perspectiveBarVisible" value="true"/>
     <persistedState key="isRestored" value="true"/>
@@ -13,7 +13,7 @@
     <tags>topLevel</tags>
     <tags>shellMaximized</tags>
     <children xsi:type="basic:PartSashContainer" xmi:id="_xbAQkvD2EeaqkrMIF7tLMQ" selectedElement="_xbAQk_D2EeaqkrMIF7tLMQ" horizontal="true">
-      <children xsi:type="advanced:PerspectiveStack" xmi:id="_xbAQk_D2EeaqkrMIF7tLMQ" elementId="org.eclipse.ui.ide.perspectivestack" containerData="7500" selectedElement="_wADJ8PEAEeaqkrMIF7tLMQ">
+      <children xsi:type="advanced:PerspectiveStack" xmi:id="_xbAQk_D2EeaqkrMIF7tLMQ" elementId="org.eclipse.ui.ide.perspectivestack" containerData="7500" selectedElement="_y0RJkPD2EeaqkrMIF7tLMQ">
         <children xsi:type="advanced:Perspective" xmi:id="_y0RJkPD2EeaqkrMIF7tLMQ" elementId="lu.uni.lassy.excalibur.ui.perspective" selectedElement="_y0RJkfD2EeaqkrMIF7tLMQ" label="Specification" iconURI="platform:/plugin/lu.uni.lassy.excalibur.ui/icons/excalibur.png">
           <persistedState key="persp.hiddenItems" value="persp.hideToolbarSC:org.eclipse.debug.ui.commands.RunToLine,persp.hideToolbarSC:org.eclipse.jdt.ui.actions.OpenProjectWizard,persp.hideToolbarSC:print,persp.hideToolbarSC:org.eclipse.ui.edit.text.toggleShowSelectedElementOnly,"/>
           <tags>persp.actionSet:org.eclipse.mylyn.doc.actionSet</tags>
@@ -30,7 +30,9 @@
           <tags>persp.perspSC:lu.uni.lassy.excalibur.ui.perspective</tags>
           <tags>persp.perspSC:lu.uni.lassy.excalibur.ui.perspective.simulation</tags>
           <children xsi:type="basic:PartSashContainer" xmi:id="_y0RJkfD2EeaqkrMIF7tLMQ" selectedElement="_y0RJkvD2EeaqkrMIF7tLMQ" horizontal="true">
-            <children xsi:type="basic:PartStack" xmi:id="_y0RJkvD2EeaqkrMIF7tLMQ" elementId="LeftTop" containerData="3500" selectedElement="_y0RJ9_D2EeaqkrMIF7tLMQ">
+            <children xsi:type="basic:PartStack" xmi:id="_y0RJkvD2EeaqkrMIF7tLMQ" elementId="LeftTop" containerData="3500" selectedElement="_malaoPD3EeaqkrMIF7tLMQ">
+              <tags>active</tags>
+              <tags>noFocus</tags>
               <children xsi:type="advanced:Placeholder" xmi:id="_y0RJk_D2EeaqkrMIF7tLMQ" elementId="lu.uni.lassy.excalibur.ui.views.outline.single:lu.uni.lassy.excalibur.ui.views.outline.single0" toBeRendered="false" ref="_yziJwPD2EeaqkrMIF7tLMQ"/>
               <children xsi:type="advanced:Placeholder" xmi:id="_y0RJlPD2EeaqkrMIF7tLMQ" elementId="lu.uni.lassy.excalibur.ui.views.outline.single:lu.uni.lassy.excalibur.ui.views.outline.single1" toBeRendered="false" ref="_yziw0PD2EeaqkrMIF7tLMQ"/>
               <children xsi:type="advanced:Placeholder" xmi:id="_y0RJlfD2EeaqkrMIF7tLMQ" elementId="lu.uni.lassy.excalibur.ui.views.outline.single:lu.uni.lassy.excalibur.ui.views.outline.single2" toBeRendered="false" ref="_yziw0fD2EeaqkrMIF7tLMQ"/>
@@ -172,11 +174,9 @@
           <tags>persp.newWizSC:net.sourceforge.texlipse.wizards.TexlipseNewTexFileWizard</tags>
           <tags>persp.perspSC:lu.uni.lassy.excalibur.ui.perspective</tags>
           <tags>persp.perspSC:lu.uni.lassy.excalibur.ui.perspective.simulation</tags>
-          <children xsi:type="basic:PartSashContainer" xmi:id="_wADJ8fEAEeaqkrMIF7tLMQ" selectedElement="_wADJ-PEAEeaqkrMIF7tLMQ" horizontal="true">
+          <children xsi:type="basic:PartSashContainer" xmi:id="_wADJ8fEAEeaqkrMIF7tLMQ" selectedElement="_wADJ8vEAEeaqkrMIF7tLMQ" horizontal="true">
             <children xsi:type="basic:PartSashContainer" xmi:id="_wADJ8vEAEeaqkrMIF7tLMQ" containerData="2500" selectedElement="_wADJ8_EAEeaqkrMIF7tLMQ">
               <children xsi:type="basic:PartStack" xmi:id="_wADJ8_EAEeaqkrMIF7tLMQ" elementId="org.eclipse.ui.navigator.ProjectExplorerMStack" containerData="5000" selectedElement="_wADJ9PEAEeaqkrMIF7tLMQ">
-                <tags>active</tags>
-                <tags>noFocus</tags>
                 <children xsi:type="advanced:Placeholder" xmi:id="_wADJ9PEAEeaqkrMIF7tLMQ" elementId="org.eclipse.ui.navigator.ProjectExplorer" ref="_x4AVovD2EeaqkrMIF7tLMQ"/>
               </children>
               <children xsi:type="basic:PartStack" xmi:id="_wADJ9fEAEeaqkrMIF7tLMQ" elementId="left" containerData="5000" selectedElement="_wADJ9vEAEeaqkrMIF7tLMQ">
@@ -247,14 +247,14 @@
     <sharedElements xsi:type="basic:Part" xmi:id="_x4AVofD2EeaqkrMIF7tLMQ" elementId="org.eclipse.ui.views.ResourceNavigator" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Navigator" iconURI="platform:/plugin/org.eclipse.ui.ide/icons/full/eview16/filenav_nav.png" tooltip="" closeable="true">
       <persistedState key="originalCompatibilityViewClass" value="org.eclipse.ui.views.navigator.ResourceNavigator"/>
       <persistedState key="originalCompatibilityViewBundle" value="org.eclipse.ui.ide"/>
-      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;view LINK_NAVIGATOR_TO_EDITOR=&quot;0&quot; sorter=&quot;1&quot;>&#xA;&lt;filters>&#xA;&lt;filter element=&quot;*.class&quot; isEnabled=&quot;false&quot;/>&#xA;&lt;filter element=&quot;.*&quot; isEnabled=&quot;false&quot;/>&#xA;&lt;filter element=&quot;*.aux&quot; isEnabled=&quot;false&quot;/>&#xA;&lt;filter element=&quot;*.log&quot; isEnabled=&quot;false&quot;/>&#xA;&lt;filter element=&quot;*.toc&quot; isEnabled=&quot;false&quot;/>&#xA;&lt;filter element=&quot;*.dvi&quot; isEnabled=&quot;false&quot;/>&#xA;&lt;filter element=&quot;*.ps&quot; isEnabled=&quot;false&quot;/>&#xA;&lt;filter element=&quot;*.bbl&quot; isEnabled=&quot;false&quot;/>&#xA;&lt;filter element=&quot;*.blg&quot; isEnabled=&quot;false&quot;/>&#xA;&lt;filter element=&quot;*.ind&quot; isEnabled=&quot;false&quot;/>&#xA;&lt;filter element=&quot;*.ilg&quot; isEnabled=&quot;false&quot;/>&#xA;&lt;filter element=&quot;*.lot&quot; isEnabled=&quot;false&quot;/>&#xA;&lt;filter element=&quot;*.lof&quot; isEnabled=&quot;false&quot;/>&#xA;&lt;/filters>&#xA;&lt;selection>&#xA;&lt;element path=&quot;/lu.uni.lassy.excalibur.myproject.design.report&quot;/>&#xA;&lt;/selection>&#xA;&lt;/view>"/>
+      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;view LINK_NAVIGATOR_TO_EDITOR=&quot;0&quot; sorter=&quot;1&quot;>&#xA;&lt;filters>&#xA;&lt;filter element=&quot;*.class&quot; isEnabled=&quot;false&quot;/>&#xA;&lt;filter element=&quot;.*&quot; isEnabled=&quot;false&quot;/>&#xA;&lt;filter element=&quot;*.aux&quot; isEnabled=&quot;false&quot;/>&#xA;&lt;filter element=&quot;*.log&quot; isEnabled=&quot;false&quot;/>&#xA;&lt;filter element=&quot;*.toc&quot; isEnabled=&quot;false&quot;/>&#xA;&lt;filter element=&quot;*.dvi&quot; isEnabled=&quot;false&quot;/>&#xA;&lt;filter element=&quot;*.ps&quot; isEnabled=&quot;false&quot;/>&#xA;&lt;filter element=&quot;*.bbl&quot; isEnabled=&quot;false&quot;/>&#xA;&lt;filter element=&quot;*.blg&quot; isEnabled=&quot;false&quot;/>&#xA;&lt;filter element=&quot;*.ind&quot; isEnabled=&quot;false&quot;/>&#xA;&lt;filter element=&quot;*.ilg&quot; isEnabled=&quot;false&quot;/>&#xA;&lt;filter element=&quot;*.lot&quot; isEnabled=&quot;false&quot;/>&#xA;&lt;filter element=&quot;*.lof&quot; isEnabled=&quot;false&quot;/>&#xA;&lt;/filters>&#xA;&lt;/view>"/>
       <tags>View</tags>
       <tags>categoryTag:General</tags>
       <menus xmi:id="_y2Ix0PD2EeaqkrMIF7tLMQ" elementId="org.eclipse.ui.views.ResourceNavigator">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
       </menus>
-      <toolbar xmi:id="_y2Ix0fD2EeaqkrMIF7tLMQ" elementId="org.eclipse.ui.views.ResourceNavigator"/>
+      <toolbar xmi:id="_y2Ix0fD2EeaqkrMIF7tLMQ" elementId="org.eclipse.ui.views.ResourceNavigator" visible="false"/>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_x4AVovD2EeaqkrMIF7tLMQ" elementId="org.eclipse.ui.navigator.ProjectExplorer" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Project Explorer" iconURI="platform:/plugin/org.eclipse.ui.navigator.resources/icons/full/eview16/resource_persp.gif" tooltip="" closeable="true">
       <persistedState key="originalCompatibilityViewClass" value="org.eclipse.ui.navigator.resources.ProjectExplorer"/>
@@ -262,8 +262,6 @@
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;view CommonNavigator.LINKING_ENABLED=&quot;0&quot; org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets=&quot;0&quot;/>"/>
       <tags>View</tags>
       <tags>categoryTag:General</tags>
-      <tags>active</tags>
-      <tags>activeOnClose</tags>
       <menus xmi:id="_wASagPEAEeaqkrMIF7tLMQ" elementId="org.eclipse.ui.navigator.ProjectExplorer">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
@@ -273,7 +271,7 @@
     <sharedElements xsi:type="basic:Part" xmi:id="_x4A8sPD2EeaqkrMIF7tLMQ" elementId="org.eclipse.ui.views.ProblemView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Problems" iconURI="platform:/plugin/org.eclipse.ui.ide/icons/full/eview16/problems_view.png" tooltip="" closeable="true">
       <persistedState key="originalCompatibilityViewClass" value="org.eclipse.ui.internal.views.markers.ProblemsView"/>
       <persistedState key="originalCompatibilityViewBundle" value="org.eclipse.ui.ide"/>
-      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;view PRIMARY_SORT_FIELD=&quot;org.eclipse.ui.ide.severityAndDescriptionField&quot; categoryGroup=&quot;org.eclipse.ui.ide.severity&quot; markerContentGenerator=&quot;org.eclipse.ui.ide.problemsGenerator&quot; partName=&quot;Problems&quot;>&#xA;&lt;expanded>&#xA;&lt;category IMemento.internal.id=&quot;Errors&quot;/>&#xA;&lt;category IMemento.internal.id=&quot;Warnings (100 of 189 items)&quot;/>&#xA;&lt;/expanded>&#xA;&lt;columnWidths org.eclipse.ui.ide.locationField=&quot;105&quot; org.eclipse.ui.ide.markerType=&quot;291&quot; org.eclipse.ui.ide.pathField=&quot;527&quot; org.eclipse.ui.ide.resourceField=&quot;105&quot; org.eclipse.ui.ide.severityAndDescriptionField=&quot;350&quot;/>&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.severityAndDescriptionField&quot;/>&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.resourceField&quot;/>&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.pathField&quot;/>&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.locationField&quot;/>&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.markerType&quot;/>&#xA;&lt;/view>"/>
+      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;view PRIMARY_SORT_FIELD=&quot;org.eclipse.ui.ide.severityAndDescriptionField&quot; categoryGroup=&quot;org.eclipse.ui.ide.severity&quot; markerContentGenerator=&quot;org.eclipse.ui.ide.problemsGenerator&quot; partName=&quot;Problems&quot;>&#xA;&lt;columnWidths org.eclipse.ui.ide.locationField=&quot;105&quot; org.eclipse.ui.ide.markerType=&quot;291&quot; org.eclipse.ui.ide.pathField=&quot;527&quot; org.eclipse.ui.ide.resourceField=&quot;105&quot; org.eclipse.ui.ide.severityAndDescriptionField=&quot;464&quot;/>&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.severityAndDescriptionField&quot;/>&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.resourceField&quot;/>&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.pathField&quot;/>&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.locationField&quot;/>&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.markerType&quot;/>&#xA;&lt;/view>"/>
       <tags>View</tags>
       <tags>categoryTag:General</tags>
       <menus xmi:id="_yNT3QPD2EeaqkrMIF7tLMQ" elementId="org.eclipse.ui.views.ProblemView">
@@ -306,12 +304,11 @@
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;view/>"/>
       <tags>View</tags>
       <tags>categoryTag:General</tags>
-      <tags>highlighted</tags>
       <menus xmi:id="_FcmWoPD3EeaqkrMIF7tLMQ" elementId="org.eclipse.ui.console.ConsoleView">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
       </menus>
-      <toolbar xmi:id="_FcmWofD3EeaqkrMIF7tLMQ" elementId="org.eclipse.ui.console.ConsoleView"/>
+      <toolbar xmi:id="_FcmWofD3EeaqkrMIF7tLMQ" elementId="org.eclipse.ui.console.ConsoleView" visible="false"/>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_x4F1MfD2EeaqkrMIF7tLMQ" elementId="org.eclipse.ui.views.BookmarkView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Bookmarks" iconURI="platform:/plugin/org.eclipse.ui.ide/icons/full/eview16/bkmrk_nav.png" tooltip="" closeable="true">
       <persistedState key="originalCompatibilityViewClass" value="org.eclipse.ui.internal.views.markers.BookmarksView"/>
@@ -986,7 +983,7 @@
     <sharedElements xsi:type="basic:Part" xmi:id="_y0MREPD2EeaqkrMIF7tLMQ" elementId="org.eclipse.sirius.ui.tools.views.model.explorer" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Model Explorer" iconURI="platform:/plugin/org.eclipse.sirius.ui.ext/icons/full/others/ModelExplorer.gif" tooltip="" closeable="true">
       <persistedState key="originalCompatibilityViewClass" value="org.eclipse.sirius.ui.tools.internal.views.modelexplorer.ModelExplorerView"/>
       <persistedState key="originalCompatibilityViewBundle" value="org.eclipse.sirius.ui.ext"/>
-      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;view CommonNavigator.LINKING_ENABLED=&quot;0&quot; org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets=&quot;0&quot;/>"/>
+      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;view CommonNavigator.LINKING_ENABLED=&quot;0&quot; currentWorkingSetName=&quot;Aggregate for window 1486885339755&quot; org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets=&quot;0&quot;/>"/>
       <tags>View</tags>
       <tags>categoryTag:Sirius</tags>
       <menus xmi:id="_9G5agPD3EeaqkrMIF7tLMQ" elementId="org.eclipse.sirius.ui.tools.views.model.explorer">
@@ -1013,11 +1010,13 @@
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;view/>"/>
       <tags>View</tags>
       <tags>categoryTag:Excalibur</tags>
+      <tags>active</tags>
+      <tags>activeOnClose</tags>
       <menus xmi:id="_mbO64PD3EeaqkrMIF7tLMQ" elementId="lu.uni.lassy.excalibur.ui.views.outline.single">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
       </menus>
-      <toolbar xmi:id="_mbO64fD3EeaqkrMIF7tLMQ" elementId="lu.uni.lassy.excalibur.ui.views.outline.single" visible="false"/>
+      <toolbar xmi:id="_mbO64fD3EeaqkrMIF7tLMQ" elementId="lu.uni.lassy.excalibur.ui.views.outline.single"/>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_O8QSgPD4EeaqkrMIF7tLMQ" elementId="org.eclipse.ui.views.PropertySheet" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Properties" iconURI="platform:/plugin/org.eclipse.ui.views/icons/full/eview16/prop_ps.png" tooltip="" closeable="true">
       <persistedState key="originalCompatibilityViewClass" value="org.eclipse.ui.views.properties.PropertySheet"/>
@@ -1079,7 +1078,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_xgnJUPD2EeaqkrMIF7tLMQ" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_xhSewPD2EeaqkrMIF7tLMQ" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" enabled="false" command="_wojgFvD2EeaqkrMIF7tLMQ"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_dO8MkABwEeemB6JGsQwGpg" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_wojgFvD2EeaqkrMIF7tLMQ"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_xgsB0PD2EeaqkrMIF7tLMQ" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -1100,7 +1099,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_xgsB1PD2EeaqkrMIF7tLMQ" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_xhUT8PD2EeaqkrMIF7tLMQ" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_woiR5PD2EeaqkrMIF7tLMQ"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_dO_28ABwEeemB6JGsQwGpg" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_woiR5PD2EeaqkrMIF7tLMQ"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_xgso4PD2EeaqkrMIF7tLMQ" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -1144,7 +1143,9 @@
   </children>
   <bindingTables xmi:id="_wnJKsfD2EeaqkrMIF7tLMQ" contributorURI="platform:/plugin/org.eclipse.platform" bindingContext="_wnJKsvD2EeaqkrMIF7tLMQ">
     <bindings xmi:id="_wprhWPD2EeaqkrMIF7tLMQ" keySequence="CTRL+A" command="_woeAb_D2EeaqkrMIF7tLMQ"/>
-    <bindings xmi:id="_wpsIZfD2EeaqkrMIF7tLMQ" keySequence="CTRL+SPACE" command="_woi5AfD2EeaqkrMIF7tLMQ"/>
+    <bindings xmi:id="_wpsIZfD2EeaqkrMIF7tLMQ" keySequence="CTRL+SPACE" command="_woi5AfD2EeaqkrMIF7tLMQ">
+      <tags>deleted</tags>
+    </bindings>
     <bindings xmi:id="_wpsIcPD2EeaqkrMIF7tLMQ" keySequence="CTRL+SHIFT+SPACE" command="_wocLT_D2EeaqkrMIF7tLMQ"/>
     <bindings xmi:id="_wpukoPD2EeaqkrMIF7tLMQ" keySequence="SHIFT+INSERT" command="_woZvIPD2EeaqkrMIF7tLMQ"/>
     <bindings xmi:id="_wpvyyvD2EeaqkrMIF7tLMQ" keySequence="CTRL+C" command="_wofOi_D2EeaqkrMIF7tLMQ"/>
@@ -1164,6 +1165,9 @@
     <bindings xmi:id="_wqARg_D2EeaqkrMIF7tLMQ" keySequence="CTRL+1" command="_wobkVPD2EeaqkrMIF7tLMQ"/>
     <bindings xmi:id="_wqA4hPD2EeaqkrMIF7tLMQ" keySequence="ALT+SHIFT+F3" command="_wokHBfD2EeaqkrMIF7tLMQ"/>
     <bindings xmi:id="_wqBfkvD2EeaqkrMIF7tLMQ" keySequence="SHIFT+DEL" command="_wocyV_D2EeaqkrMIF7tLMQ"/>
+    <bindings xmi:id="_7XDkwAByEeemB6JGsQwGpg" keySequence="SHIFT+`" command="_woi5AfD2EeaqkrMIF7tLMQ">
+      <tags>type:user</tags>
+    </bindings>
   </bindingTables>
   <bindingTables xmi:id="_wpVjEPD2EeaqkrMIF7tLMQ" elementId="org.eclipse.jdt.ui.javaEditorScope" bindingContext="_woufGPD2EeaqkrMIF7tLMQ">
     <bindings xmi:id="_wpbpsPD2EeaqkrMIF7tLMQ" keySequence="CTRL+SHIFT+C" command="_wofOo_D2EeaqkrMIF7tLMQ"/>

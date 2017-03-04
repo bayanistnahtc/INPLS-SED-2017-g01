@@ -1,4 +1,4 @@
-# List of external plug-in models previously loaded. Timestamp: 1486885752155
+# List of external plug-in models previously loaded. Timestamp: 1488540938157
 file:/home/innopolis/Applications/eclipse/plugins/org.eclipse.mylyn.wikitext.asciidoc.ui_2.10.1.v20161129-1925.jar
 file:/home/innopolis/Applications/eclipse/plugins/org.eclipse.equinox.p2.director.app_1.0.500.v20160419-0834.jar
 file:/home/innopolis/Applications/eclipse/plugins/org.eclipse.egit.ui_4.4.1.201607150455-r.jar
