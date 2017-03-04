@@ -9,31 +9,31 @@ import lu.uni.lassy.messir.libraries.calendar
 		
 		Primary Types {
    
-			 datatype dtAlertID extends dtString {
+			datatype dtAlertID {
 				operation is():ptBoolean
 			}
-			datatype dtCrisisID extends dtString {
+			datatype dtCrisisID {
 				operation is():ptBoolean
 			}
-			datatype dtLogin extends dtString {
+			datatype dtLogin {
 				operation is():ptBoolean
 			}
-			datatype dtPassword extends dtString {
+			datatype dtPassword {
 				operation is():ptBoolean
 			}
-			datatype dtCoordinatorID extends dtString {
+			datatype dtCoordinatorID {
 				operation is():ptBoolean
 			}
-			datatype dtPhoneNumber extends dtString {
+			datatype dtPhoneNumber {
 				operation is():ptBoolean
 			}
-			datatype dtComment extends dtString {
+			datatype dtComment {
 				operation is():ptBoolean			
 			}
-			datatype dtLatitude extends dtReal {
+			datatype dtLatitude {
 				operation is():ptBoolean			
 			}
-			datatype dtLongitude extends dtReal {
+			datatype dtLongitude {
 				operation is():ptBoolean			
 			}
 			datatype dtGPSLocation {
@@ -41,6 +41,9 @@ import lu.uni.lassy.messir.libraries.calendar
 				attribute longitude: dtLongitude
 				operation is():ptBoolean			
 				operation isNearTo(AGPSLocation:dtGPSLocation ):ptBoolean
+			}
+			datatype dtBiometrics {
+				operation is():ptBoolean
 			}
 			
 			enum etCrisisStatus {
@@ -59,6 +62,11 @@ import lu.uni.lassy.messir.libraries.calendar
 				constants["witness", "victim", "anonymous"]
 				operation is():ptBoolean
 			}
+			enum etBiometricAuthType {
+				constants["mandatory", "optional"]
+				operation is():ptBoolean
+			}
+		
 		}
 	}
 }
