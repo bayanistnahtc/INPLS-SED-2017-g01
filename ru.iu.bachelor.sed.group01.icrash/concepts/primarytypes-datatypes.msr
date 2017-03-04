@@ -4,6 +4,7 @@ import lu.uni.lassy.messir.libraries.primitives
 import lu.uni.lassy.messir.libraries.string
 import lu.uni.lassy.messir.libraries.math
 import lu.uni.lassy.messir.libraries.calendar
+import icrash.concepts.secondarytypes.datatypes
 
 	Concept Model {
 		
@@ -43,6 +44,7 @@ import lu.uni.lassy.messir.libraries.calendar
 				operation isNearTo(AGPSLocation:dtGPSLocation ):ptBoolean
 			}
 			datatype dtBiometrics {
+				attribute speechRecord: dtSpeechRecord
 				operation is():ptBoolean
 			}
 			
