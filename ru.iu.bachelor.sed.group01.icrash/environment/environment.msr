@@ -32,7 +32,9 @@ import lu.uni.lassy.messir.libraries.calendar
 				operation oeAddCoordinator(
 											AdtCoordinatorID:dtCoordinatorID ,
 											AdtLogin:dtLogin , 
-											AdtPassword:dtPassword ):ptBoolean
+											AdtPassword:dtPassword ,
+											AetBiometricAuthType:etBiometricAuthType ,
+											AdtBiometrics:dtBiometrics ):ptBoolean
 											
 				operation oeDeleteCoordinator(
 											AdtCoordinatorID:dtCoordinatorID ):ptBoolean
@@ -106,7 +108,7 @@ import lu.uni.lassy.messir.libraries.calendar
 			operation init():ptBoolean
 
 			output interface outactAuthenticated{
-				operation oeLogin(AdtLogin:dtLogin , AdtPassword:dtPassword ):ptBoolean
+				operation oeLogin(AdtLogin:dtLogin , AdtPassword:dtPassword , AetBiometricAuthType:etBiometricAuthType , AdtBiometrics:dtBiometrics):ptBoolean
 				operation oeLogout():ptBoolean
 			}
 			
