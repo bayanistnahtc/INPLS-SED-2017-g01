@@ -86,10 +86,14 @@ import lu.uni.lassy.messir.libraries.calendar
 				attribute login:dtLogin
 				attribute pwd: dtPassword
 				attribute vpIsLogged:ptBoolean
+				attribute authType:etBiometricAuthType
+				attribute biometrics:dtBiometrics
 				
 				operation init(
 										Alogin:dtLogin ,
-										Apwd:dtPassword ):ptBoolean
+										Apwd:dtPassword ,
+										AauthType:etBiometricAuthType ,
+										Abiometrics:dtBiometrics ):ptBoolean
 			}
 			
 			class ctCoordinator 
@@ -102,7 +106,9 @@ import lu.uni.lassy.messir.libraries.calendar
 				operation init(
 										Aid:dtCoordinatorID ,
 										Alogin:dtLogin ,
-										Apwd:dtPassword ):ptBoolean
+										Apwd:dtPassword ,
+										AauthType:etBiometricAuthType ,
+										Abiometrics:dtBiometrics ):ptBoolean
 			}
 
 			class ctAdministrator 
@@ -112,7 +118,8 @@ import lu.uni.lassy.messir.libraries.calendar
 
 				operation init(
 										Alogin:dtLogin ,
-										Apwd:dtPassword ):ptBoolean
+										Apwd:dtPassword ,
+										Abiometrics:dtBiometrics ):ptBoolean
 			}
 		}
 	}

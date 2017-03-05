@@ -462,6 +462,12 @@
   <semanticResources>operations/concepts/primarytypes-datatypes/primarytypes-datatypes-dtBiometrics-is.msr</semanticResources>
   <semanticResources>operations/concepts/primarytypes-datatypes/primarytypes-datatypes-etBiometricAuthType-is.msr</semanticResources>
   <semanticResources>operations/concepts/secondarytypes-datatypes/secondarytypes-datatypes-dtSpeechRecord-is.msr</semanticResources>
+  <semanticResources>concepts/documentation/PrimaryType-Datatype-dtBiometrics.msrd</semanticResources>
+  <semanticResources>concepts/documentation/Operation-dtBiometrics-is.msrd</semanticResources>
+  <semanticResources>concepts/documentation/PrimaryType-Enumeration-etBiometricAuthType.msrd</semanticResources>
+  <semanticResources>concepts/documentation/Operation-etBiometricAuthType-is.msrd</semanticResources>
+  <semanticResources>concepts/documentation/SecondaryType-Datatype-dtSpeechRecord.msrd</semanticResources>
+  <semanticResources>concepts/documentation/Operation-dtSpeechRecord-is.msrd</semanticResources>
   <ownedViews xmi:type="viewpoint:DView" xmi:id="_X0EtsPWqEeSOM9Kfym77Zg">
     <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/lu.uni.lassy.excalibur.ui.viewer/description/excalibur_models.odesign#//@ownedViewpoints[name='msr-viewpoint']"/>
   </ownedViews>

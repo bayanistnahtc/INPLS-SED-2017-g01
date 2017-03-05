@@ -74,6 +74,10 @@ The \msrcode{oeLogin} operation has the following properties:
 	          = AdtPassword
 	          and TheactAuthenticated.rnctAuthenticated.login
 	              = AdtLogin
+	          and TheactAuthenticated.rnctAuthenticated.biometricAuthType
+	              = AetBiometricAuthType
+	          and TheactAuthenticated.rnctAuthenticated.biometrics
+	              = AdtBiometrics
 	         )
 	      then (AptStringMessageForTheactAuthenticated.eq('You are logged ! Welcome ...')
 	            and TheactAuthenticated.rnInterfaceIN^ieMessage(AptStringMessageForTheactAuthenticated)
@@ -96,6 +100,8 @@ The \msrcode{oeLogin} operation has the following properties:
 	/* PostP01 */
 	  if (TheactAuthenticated.rnctAuthenticated.pwd = AdtPassword
 	      and TheactAuthenticated.rnctAuthenticated.login = AdtLogin
+	      and TheactAuthenticated.rnctAuthenticated.biometricAuthType = AetBiometricAuthType
+	      and TheactAuthenticated.rnctAuthenticated.biometrics = AdtBiometrics
 	     )
 	  then (TheactAuthenticated.rnctAuthenticated@post.vpIsLogged = true)
 	  else true
