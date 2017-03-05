@@ -1,0 +1,44 @@
+package icrash.concepts.primarytypes.classes.operations.classes.clReport.init {
+
+import lu.uni.lassy.messir.libraries.primitives
+import lu.uni.lassy.messir.libraries.math
+import lu.uni.lassy.messir.libraries.string
+import lu.uni.lassy.messir.libraries.calendar
+
+import icrash.concepts.primarytypes.datatypes
+import icrash.concepts.primarytypes.classes
+import icrash.concepts.secondarytypes.datatypes
+import icrash.concepts.secondarytypes.classes
+
+import icrash.environment
+
+	Operation Model {
+//------------------------------------------------------------
+		operation: icrash.concepts.primarytypes.classes.clReport.init(
+			Aid:dtReportID, 
+			Alocation:dtGPSLocation, 
+			Astatus:etCrisisStatus, 
+			Atype:etCrisisType, 
+			Ainformation:ptString
+		):ptBoolean{
+					postF{
+					if
+					(
+					/* Post F01 */
+					let Self:ctCrisis in
+					Self.id = Aid
+					and Self.type = Atype
+					and Self.status = Astatus
+					and Self.location = Alocation
+					and Self.information = Ainformation
+					/* Post F02 */
+					and (Self.oclIsNew and self = Self)
+					)
+					then (result = true)
+					else (result = false)
+					endif
+					}
+
+		}
+	}
+}
