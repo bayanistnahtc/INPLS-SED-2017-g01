@@ -123,14 +123,14 @@ import icrash.concepts.secondarytypes.datatypes
 										Abiometrics:dtBiometrics ):ptBoolean
 			}
 			class clReport role rnclReport cardinality[0 .. *] {
-			attribute id:dtReportID
+			attribute id:dtCrisisID
 			attribute recipient:dtEmail
 			attribute location:dtGPSLocation
 			attribute status:etCrisisStatus
 			attribute type:etCrisisType
 			attribute information:ptString
 			operation init(
-				Aid:dtReportID,
+				Aid:dtCrisisID,
 				Arecipient:dtEmail,
 				Alocation:dtGPSLocation,
 				Astatus:etCrisisStatus,
