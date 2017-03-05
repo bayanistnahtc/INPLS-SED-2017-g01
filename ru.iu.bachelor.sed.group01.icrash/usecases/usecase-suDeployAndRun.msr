@@ -64,7 +64,7 @@ package icrash.usecases.suDeployAndRun {
         bill
         executed instanceof subfunction
               oeAddCoordinator("1","steve","pwdMessirExcalibur2017","optional","steveSpeechRecord.wav"){
-                ieCoordinatorAddedreturned returned to bill
+                ieCoordinatorAdded() returned to bill
               }
 //----------------------------------------------------
         bill
@@ -156,8 +156,8 @@ package icrash.usecases.suDeployAndRun {
 //----------------------------------------------------
         steve
         executed instanceof subfunction
-              oeMakeFullReport("1","police@gmail.com"){
-                ieMessage('The report has been created !')
+              oeMakeFullReport("1","contact@police.public.lu"){
+                ieFullReportMade()
                 returned to steve
               }
 //----------------------------------------------------
@@ -201,7 +201,7 @@ package icrash.usecases.suDeployAndRun {
         bill
         executed instanceof subfunction
               oeAddCoordinator("1","steve","pwdMessirExcalibur2017","optional","steveSpeechRecord.wav"){
-                ieCoordinatorAddedreturned returned to bill
+                ieCoordinatorAdded() returned to bill
               }
 //----------------------------------------------------
         bill
@@ -309,8 +309,8 @@ package icrash.usecases.suDeployAndRun {
 //----------------------------------------------------
         steve
         executed instanceof subfunction
-              oeMakeFullReport("1","police@gmail.com"){
-                ieMessage('The report has been created !')
+              oeMakeFullReport("1","contact@police.public.lu"){
+                ieFullReportMade()
                 returned to steve
               }
 //----------------------------------------------------

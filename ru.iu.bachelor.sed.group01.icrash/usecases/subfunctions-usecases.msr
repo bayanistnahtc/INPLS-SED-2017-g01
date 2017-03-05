@@ -139,7 +139,7 @@ import icrash.environment
   use case system subfunction oeMakeFullReport(AdtCrisisID:dtCrisisID , AdtEmail:dtEmail) {
 			actor actCoordinator[primary, active]
 			    returned messages {
-      ieMessage(AMessage) returned to actCoordinator
+      ieFullReportMade() returned to actCoordinator
     }
 		}
 	}

@@ -68,7 +68,6 @@ import icrash.concepts.secondarytypes.datatypes
 				constants["mandatory", "optional"]
 				operation is():ptBoolean
 			}
-		
 		datatype dtReportID {
 			operation is():ptBoolean
 			}

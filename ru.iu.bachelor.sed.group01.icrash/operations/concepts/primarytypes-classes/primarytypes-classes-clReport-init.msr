@@ -16,6 +16,7 @@ import icrash.environment
 //------------------------------------------------------------
 		operation: icrash.concepts.primarytypes.classes.clReport.init(
 			Aid:dtReportID,
+			AcrisisID:dtCrisisID,
 			Arecipient:dtEmail, 
 			Alocation:dtGPSLocation, 
 			Astatus:etCrisisStatus, 
@@ -28,6 +29,7 @@ import icrash.environment
 					/* Post F01 */
 					let Self:ctCrisis in
 					Self.id = Aid
+					and Self.crisisID = AcrisisID
 					and Self.recipient = Arecipient
 					and Self.type = Atype
 					and Self.status = Astatus
