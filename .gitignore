@@ -6,7 +6,6 @@
 
 # makeglossaries
 .externalToolBuilders/
-.project
 
 # Temporary files
 tmp-latex/*
