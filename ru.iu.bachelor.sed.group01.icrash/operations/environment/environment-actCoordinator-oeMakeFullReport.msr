@@ -5,13 +5,57 @@ import lu.uni.lassy.messir.libraries.math
 import lu.uni.lassy.messir.libraries.string
 import lu.uni.lassy.messir.libraries.calendar
 import icrash.concepts.primarytypes.datatypes
+import icrash.concepts.primarytypes.classes
 import icrash.environment
 
 	Operation Model {
 
-		operation: icrash.environment.actCoordinator.outactCoordinator.oeMakeFullReport(AdtReportID:dtReportID):ptBoolean{
+		operation: icrash.environment.actCoordinator.outactCoordinator.oeMakeFullReport(AdtCrisisID:dtCrisisID, AdtEmail:dtEmail):ptBoolean{
 		// include below the specification information (pre,post or ocl or prolog)
+			preP{
+			  let TheSystem: ctState in
+			  let TheActor:actCoordinator in
+			  
+			  self.rnActor.rnSystem = TheSystem
+			  and self.rnActor = TheActor
+			  
+			/* PreP01 */
+			  and TheSystem.vpStarted = true
+			/* PreP02 */
+			  and TheActor.rnctAuthenticated.vpIsLogged = true
+			  }
+			  
+			preF{ 
+			  let TheSystem: ctState in
+			  let TheActor:actCoordinator in
+			  let ColctCrises:Bag(ctCrisis) in
+			  
+			  self.rnActor.rnSystem = TheSystem
+			  and self.rnActor = TheActor
+			/* PreF01 */
+			  and TheSystem.rnctCrisis->select(id.eq(AdtCrisisID))
+			      = ColctCrises
+			  and ColctCrises->isEmpty() = true
+			   }
+			   
+			postF{
+			  let TheSystem: ctState in
+			  let TheActor:actCoordinator in
+			  let TheclReport:clReport in
+			  self.rnActor.rnSystem = TheSystem
+			  and self.rnActor = TheActor
+			/* PostF01 */
+			  TheclReport.init()
+			/* PostF02 */
+			  and TheclReport.init(AdtReportID,AdtCrisisID,AdtEmail,AdtGPSLocation,AetCrisisStatus,AetCrisisType,AptString)
+			
 
+			/* PostF03 */  
+			  and TheActor.rnInterfaceIN^ieFullReportMade()
+			}
+			postP{
+				true
+			}
 		}
 	}
 }

@@ -462,6 +462,8 @@
   <semanticResources>operations/environment/environment-actCoordinator-init.msr</semanticResources>
   <semanticResources>operations/environment/environment-actCoordinator-oeMakeFullReport.msr</semanticResources>
   <semanticResources>concepts/documentation/PrimaryType-Datatype-dtReportID.msrd</semanticResources>
+  <semanticResources>operations/concepts/primarytypes-datatypes/primarytypes-datatypes-dtEmail-is.msr</semanticResources>
+  <semanticResources>operations/concepts/primarytypes-datatypes/primarytypes-datatypes-dtReportID-is1.msr</semanticResources>
   <ownedViews xmi:type="viewpoint:DView" xmi:id="_UmILAPWqEeSOM9Kfym77Zg">
     <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/lu.uni.lassy.excalibur.ui.viewer/description/excalibur_models.odesign#//@ownedViewpoints[name='msr-viewpoint']"/>
   </ownedViews>

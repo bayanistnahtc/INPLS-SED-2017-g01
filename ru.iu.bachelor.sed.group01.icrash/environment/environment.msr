@@ -73,13 +73,16 @@ import lu.uni.lassy.messir.libraries.calendar
                                           AetCrisisType:etCrisisType
                                           ):ptBoolean
 				operation oeValidateAlert(AdtAlertID:dtAlertID ):ptBoolean
-				operation oeMakeFullReport(AdtReportID:dtReportID):ptBoolean
+				operation oeMakeFullReport(
+											AdtCrisisID:dtCrisisID , 
+											AdtEmail:dtEmail
+											):ptBoolean
 			}
 			
 			input interface inactCoordinator{
 				operation ieSendAnAlert(ActAlert:ctAlert ):ptBoolean
 				operation ieSendACrisis(ActCrisis:ctCrisis ):ptBoolean
-				operation ieMakedFullReport():ptBoolean
+				operation ieFullReportMade():ptBoolean
 	 		}
 		}
 		
