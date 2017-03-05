@@ -4,7 +4,7 @@
 # Standart libraries
 /lu.*/
 
-# makeglossary
+# makeglossaries
 .externalToolBuilders/
 
 # Temporary files
