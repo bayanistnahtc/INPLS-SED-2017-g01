@@ -10,7 +10,7 @@ import icrash.environment
 
 Operation Model {
 
-operation: actAuthenticated.outactAuthenticated.oeLogin(AdtLogin:dtLogin, AdtPassword:dtPassword):ptBoolean
+operation: actAuthenticated.outactAuthenticated.oeLogin(AdtLogin:dtLogin, AdtPassword:dtPassword, AetBiometricAuthType:etBiometricAuthType, AdtBiometrics:dtBiometrics):ptBoolean
 {
 preP{
   let TheSystem: ctState in
@@ -42,6 +42,10 @@ postF{
           = AdtPassword
           and TheactAuthenticated.rnctAuthenticated.login
               = AdtLogin
+          and TheactAuthenticated.rnctAuthenticated.biometricAuthType
+              = AetBiometricAuthType
+          and TheactAuthenticated.rnctAuthenticated.biometrics
+              = AdtBiometrics
          )
       then (AptStringMessageForTheactAuthenticated.eq('You are logged ! Welcome ...')
             and TheactAuthenticated.rnInterfaceIN^ieMessage(AptStringMessageForTheactAuthenticated)
@@ -64,6 +68,8 @@ postP{
 /* PostP01 */
   if (TheactAuthenticated.rnctAuthenticated.pwd = AdtPassword
       and TheactAuthenticated.rnctAuthenticated.login = AdtLogin
+      and TheactAuthenticated.rnctAuthenticated.biometricAuthType = AetBiometricAuthType
+      and TheactAuthenticated.rnctAuthenticated.biometrics = AdtBiometrics
      )
   then (TheactAuthenticated.rnctAuthenticated@post.vpIsLogged = true)
   else true
