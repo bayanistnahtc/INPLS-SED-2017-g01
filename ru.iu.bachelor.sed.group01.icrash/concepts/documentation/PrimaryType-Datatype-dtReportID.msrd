@@ -1,0 +1,12 @@
+/*
+@author user
+@date Sat Mar 04 21:50:58 MSK 2017
+*/
+
+
+@@Primary Type Datatype icrash.concepts.primarytypes.datatypes.dtReportID
+@description ""
+@operation
+icrash.concepts.primarytypes.datatypes.dtReportID.is
+""
+@endOperations
