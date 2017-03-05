@@ -57,13 +57,13 @@ package icrash.usecases.suDeployAndRun {
 //----------------------------------------------------
         bill
         executed instanceof subfunction
-              oeLogin("icrashadmin","7WXC1359"){
+              oeLogin("icrashadmin","7WXC1359","mandatory","billSpeechRecord.wav"){
                 ieMessage('You are logged ! Welcome ...') returned to bill
               }
 //----------------------------------------------------
         bill
         executed instanceof subfunction
-              oeAddCoordinator("1","steve","pwdMessirExcalibur2017"){
+              oeAddCoordinator("1","steve","pwdMessirExcalibur2017","optional","steveSpeechRecord.wav"){
                 ieCoordinatorAddedreturned returned to bill
               }
 //----------------------------------------------------
@@ -99,7 +99,7 @@ package icrash.usecases.suDeployAndRun {
 //----------------------------------------------------
         steve
         executed instanceof subfunction
-              oeLogin("steve","pwdMessirExcalibur2017"){
+              oeLogin("steve","pwdMessirExcalibur2017","optional","steveSpeechRecord.wav"){
                 ieMessage('You are logged ! Welcome ...') returned to steve
               }
 //----------------------------------------------------
@@ -187,13 +187,13 @@ package icrash.usecases.suDeployAndRun {
 //----------------------------------------------------
         bill
         executed instanceof subfunction
-              oeLogin("icrashadmin","7WXC1359"){
+              oeLogin("icrashadmin","7WXC1359","mandatory","billSpeechRecord.wav"){
                 ieMessage('You are logged ! Welcome ...') returned to bill
               }
 //----------------------------------------------------
         bill
         executed instanceof subfunction
-              oeAddCoordinator("1","steve","pwdMessirExcalibur2017"){
+              oeAddCoordinator("1","steve","pwdMessirExcalibur2017","optional","steveSpeechRecord.wav"){
                 ieCoordinatorAddedreturned returned to bill
               }
 //----------------------------------------------------
@@ -245,7 +245,7 @@ package icrash.usecases.suDeployAndRun {
 //----------------------------------------------------
         steve
         executed instanceof subfunction
-              oeLogin("steve","pwdMessirExcalibur2017"){
+              oeLogin("steve","pwdMessirExcalibur2017","optional","steveSpeechRecord.wav"){
                 ieMessage('You are logged ! Welcome ...') returned to steve
               }
 //----------------------------------------------------

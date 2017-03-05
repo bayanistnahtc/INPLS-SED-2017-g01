@@ -1,0 +1,16 @@
+/*
+@author farrukh
+@date Sun Mar 05 08:26:39 MSK 2017
+*/
+
+
+@@Primary Type Datatype icrash.concepts.primarytypes.datatypes.dtBiometrics
+@description ""
+@attribute
+icrash.concepts.primarytypes.datatypes.dtBiometrics.speechRecord
+""
+@endAttributes
+@operation
+icrash.concepts.primarytypes.datatypes.dtBiometrics.is
+""
+@endOperations

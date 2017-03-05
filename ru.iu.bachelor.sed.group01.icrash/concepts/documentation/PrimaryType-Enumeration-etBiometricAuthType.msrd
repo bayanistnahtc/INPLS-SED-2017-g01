@@ -1,0 +1,12 @@
+/*
+@author farrukh
+@date Sun Mar 05 08:26:41 MSK 2017
+*/
+
+
+@@Primary Type Enumeration icrash.concepts.primarytypes.datatypes.etBiometricAuthType
+@description ""
+@operation
+icrash.concepts.primarytypes.datatypes.etBiometricAuthType.is
+""
+@endOperations

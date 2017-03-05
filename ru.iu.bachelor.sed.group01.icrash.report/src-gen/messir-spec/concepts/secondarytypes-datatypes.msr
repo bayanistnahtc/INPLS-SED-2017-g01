@@ -13,6 +13,11 @@ import icrash.concepts.primarytypes.datatypes
 				attribute value: ptString
 				operation is():ptBoolean
 			}
+			
+			datatype dtSpeechRecord {
+				attribute value: ptString
+				operation is():ptBoolean
+			}
 		}
 	}
 }

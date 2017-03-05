@@ -1,0 +1,16 @@
+/*
+@author farrukh
+@date Sun Mar 05 08:26:43 MSK 2017
+*/
+
+
+@@Secondary Type Datatype icrash.concepts.secondarytypes.datatypes.dtSpeechRecord
+@description ""
+@attribute
+icrash.concepts.secondarytypes.datatypes.dtSpeechRecord.value
+""
+@endAttributes
+@operation
+icrash.concepts.secondarytypes.datatypes.dtSpeechRecord.is
+""
+@endOperations
