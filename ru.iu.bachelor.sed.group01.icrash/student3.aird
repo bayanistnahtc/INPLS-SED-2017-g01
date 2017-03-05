@@ -468,6 +468,16 @@
   <semanticResources>concepts/documentation/Operation-etBiometricAuthType-is.msrd</semanticResources>
   <semanticResources>concepts/documentation/SecondaryType-Datatype-dtSpeechRecord.msrd</semanticResources>
   <semanticResources>concepts/documentation/Operation-dtSpeechRecord-is.msrd</semanticResources>
+  <semanticResources>operations/environment/environment-actCoordinator-oeMakeFullReport1.msr</semanticResources>
+  <semanticResources>operations/concepts/primarytypes-classes/primarytypes-classes-clReport-init.msr</semanticResources>
+  <semanticResources>operations/concepts/primarytypes-datatypes/primarytypes-datatypes-dtReportID-is.msr</semanticResources>
+  <semanticResources>operations/environment/environment-actActivator-init.msr</semanticResources>
+  <semanticResources>operations/environment/environment-actAdministrator-init.msr</semanticResources>
+  <semanticResources>operations/environment/environment-actAuthenticated-init.msr</semanticResources>
+  <semanticResources>operations/environment/environment-actComCompany-init.msr</semanticResources>
+  <semanticResources>operations/environment/environment-actCoordinator-init.msr</semanticResources>
+  <semanticResources>operations/environment/environment-actCoordinator-oeMakeFullReport.msr</semanticResources>
+  <semanticResources>concepts/documentation/PrimaryType-Datatype-dtReportID.msrd</semanticResources>
   <ownedViews xmi:type="viewpoint:DView" xmi:id="_WzMfgPWqEeSOM9Kfym77Zg">
     <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/lu.uni.lassy.excalibur.ui.viewer/description/excalibur_models.odesign#//@ownedViewpoints[name='msr-viewpoint']"/>
   </ownedViews>
