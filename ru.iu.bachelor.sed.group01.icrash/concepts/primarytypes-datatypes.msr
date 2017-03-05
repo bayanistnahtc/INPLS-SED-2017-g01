@@ -72,6 +72,9 @@ import icrash.concepts.secondarytypes.datatypes
 		datatype dtReportID {
 			operation is():ptBoolean
 			}
+		datatype dtEmail {
+			operation is():ptBoolean
+			}
 		}
 	}
 }

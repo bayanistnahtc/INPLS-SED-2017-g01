@@ -15,7 +15,8 @@ import icrash.environment
 	Operation Model {
 //------------------------------------------------------------
 		operation: icrash.concepts.primarytypes.classes.clReport.init(
-			Aid:dtReportID, 
+			Aid:dtReportID,
+			Arecipient:dtEmail, 
 			Alocation:dtGPSLocation, 
 			Astatus:etCrisisStatus, 
 			Atype:etCrisisType, 
@@ -27,6 +28,7 @@ import icrash.environment
 					/* Post F01 */
 					let Self:ctCrisis in
 					Self.id = Aid
+					and Self.recipient = Arecipient
 					and Self.type = Atype
 					and Self.status = Astatus
 					and Self.location = Alocation

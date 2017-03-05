@@ -124,12 +124,14 @@ import icrash.concepts.secondarytypes.datatypes
 			}
 			class clReport role rnclReport cardinality[0 .. *] {
 			attribute id:dtReportID
+			attribute recipient:dtEmail
 			attribute location:dtGPSLocation
 			attribute status:etCrisisStatus
 			attribute type:etCrisisType
 			attribute information:ptString
 			operation init(
 				Aid:dtReportID,
+				Arecipient:dtEmail,
 				Alocation:dtGPSLocation,
 				Astatus:etCrisisStatus,
 				Atype:etCrisisType,
