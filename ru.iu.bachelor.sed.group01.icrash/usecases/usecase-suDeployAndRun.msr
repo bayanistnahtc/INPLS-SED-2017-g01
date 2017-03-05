@@ -156,6 +156,13 @@ package icrash.usecases.suDeployAndRun {
 //----------------------------------------------------
         steve
         executed instanceof subfunction
+              oeMakeFullReport("1","police@gmail.com"){
+                ieMessage('The report has been created !')
+                returned to steve
+              }
+//----------------------------------------------------
+        steve
+        executed instanceof subfunction
               oeCloseCrisis("1"){
                 ieMessage('The crisis is now closed !')
                 returned to steve
@@ -297,6 +304,13 @@ package icrash.usecases.suDeployAndRun {
         executed instanceof subfunction
               oeReportOnCrisis("1","3 victims sent to hospital, 2 cars evacuated and 4 rescue unit mobilized"){
                 ieMessage('The crisis comment has been updated !')
+                returned to steve
+              }
+//----------------------------------------------------
+        steve
+        executed instanceof subfunction
+              oeMakeFullReport("1","police@gmail.com"){
+                ieMessage('The report has been created !')
                 returned to steve
               }
 //----------------------------------------------------
