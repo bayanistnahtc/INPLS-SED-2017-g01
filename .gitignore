@@ -26,6 +26,3 @@ tmp-latex/*
 *.mtc
 *.xdy
 
-# Generated PDF
-*.pdf
-
