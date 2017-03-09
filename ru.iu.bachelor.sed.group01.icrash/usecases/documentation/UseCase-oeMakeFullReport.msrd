@@ -1,0 +1,27 @@
+/*
+@author farrukh
+@date Mon Mar 06 17:52:55 MSK 2017
+*/
+
+
+@@Use Case Subfunction icrash.usecases.subfunctions.oeMakeFullReport
+@description ""
+@parameter icrash.usecases.subfunctions.oeMakeFullReport.AdtCrisisID ""
+@parameter icrash.usecases.subfunctions.oeMakeFullReport.AdtEmail ""
+@endParameters
+@protocolCondition
+"
+"
+@endProtocolConditions
+@preCondition
+"
+"
+@endPreConditions
+@postCondition
+"
+"
+@endPostConditions
+@additionalInformation
+"
+none
+"

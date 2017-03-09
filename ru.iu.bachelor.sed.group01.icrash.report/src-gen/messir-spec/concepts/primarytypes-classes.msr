@@ -5,6 +5,7 @@ import icrash.environment
 import lu.uni.lassy.messir.libraries.primitives
 import lu.uni.lassy.messir.libraries.math
 import lu.uni.lassy.messir.libraries.calendar
+import icrash.concepts.secondarytypes.datatypes
 
 	Concept Model {
 		
@@ -120,6 +121,24 @@ import lu.uni.lassy.messir.libraries.calendar
 										Alogin:dtLogin ,
 										Apwd:dtPassword ,
 										Abiometrics:dtBiometrics ):ptBoolean
+			}
+			class clReport role rnclReport cardinality[0 .. *] {
+			attribute id:dtReportID
+			attribute crisisID:dtCrisisID
+			attribute recipient:dtEmail
+			attribute location:dtGPSLocation
+			attribute status:etCrisisStatus
+			attribute type:etCrisisType
+			attribute information:ptString
+			operation init(
+				Aid:dtReportID,
+				AcrisisID:dtCrisisID,
+				Arecipient:dtEmail,
+				Alocation:dtGPSLocation,
+				Astatus:etCrisisStatus,
+				Atype:etCrisisType,
+				Ainformation:ptString
+			):ptBoolean
 			}
 		}
 	}

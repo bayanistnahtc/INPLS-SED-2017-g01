@@ -8,6 +8,15 @@ The table below is providing comments on the graphical views given for the class
 \begin{datadictionary}
 \addheading{Classes}
 
+\adddoublerow{clReport}{}
+\adddoubletwocolumnrow{attribute}{\msrcode{crisisID: dtCrisisID}}{}
+\adddoubletwocolumnrow{attribute}{\msrcode{id: dtReportID}}{}
+\adddoubletwocolumnrow{attribute}{\msrcode{information: ptString}}{}
+\adddoubletwocolumnrow{attribute}{\msrcode{location: dtGPSLocation}}{}
+\adddoubletwocolumnrow{attribute}{\msrcode{recipient: dtEmail}}{}
+\adddoubletwocolumnrow{attribute}{\msrcode{status: etCrisisStatus}}{}
+\adddoubletwocolumnrow{attribute}{\msrcode{type: etCrisisType}}{}
+\adddoubletwocolumnrow{operation}{\msrcode{init(Aid:dtReportID, AcrisisID:dtCrisisID, Arecipient:dtEmail, Alocation:dtGPSLocation, Astatus:etCrisisStatus, Atype:etCrisisType, Ainformation:ptString):ptBoolean}}{}
 \adddoublerow{ctAdministrator}{used to caracterize internally the entity that is responsible of administrating the \msricrash system.}
 \addsingletwocolumnrow{extends}{icrash.concepts.primarytypes.classes.ctAuthenticated}
 \adddoubletwocolumnrow{operation}{\msrcode{init(Alogin:dtLogin, Apwd:dtPassword, Abiometrics:dtBiometrics):ptBoolean}}{used to initialize the current object as a new instance of the ctAdministrator type.}

@@ -1,0 +1,40 @@
+/*
+@author farrukh
+@date Mon Mar 06 17:52:50 MSK 2017
+*/
+
+
+@@Operation
+icrash.concepts.primarytypes.classes.clReport.init
+//parameters
+@parameter
+icrash.concepts.primarytypes.classes.clReport.init.Aid
+""
+@parameter
+icrash.concepts.primarytypes.classes.clReport.init.AcrisisID
+""
+@parameter
+icrash.concepts.primarytypes.classes.clReport.init.Arecipient
+""
+@parameter
+icrash.concepts.primarytypes.classes.clReport.init.Alocation
+""
+@parameter
+icrash.concepts.primarytypes.classes.clReport.init.Astatus
+""
+@parameter
+icrash.concepts.primarytypes.classes.clReport.init.Atype
+""
+@parameter
+icrash.concepts.primarytypes.classes.clReport.init.Ainformation
+""
+@endParameters
+
+@description "
+used to initialize the current object as a new instance of the clReport type. "
+//postFunctional descriptions
+@postF 
+"true iff the system poststate includes the current object as a new clReport instance having its attributes equal to the ones provided as parameters. "
+@endPostF
+//example
+@example" "

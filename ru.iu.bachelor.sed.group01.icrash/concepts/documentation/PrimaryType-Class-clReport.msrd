@@ -1,0 +1,34 @@
+/*
+@author farrukh
+@date Mon Mar 06 17:52:49 MSK 2017
+*/
+
+
+@@Primary Type Class icrash.concepts.primarytypes.classes.clReport
+@description ""
+@attribute
+icrash.concepts.primarytypes.classes.clReport.id
+""
+@attribute
+icrash.concepts.primarytypes.classes.clReport.crisisID
+""
+@attribute
+icrash.concepts.primarytypes.classes.clReport.recipient
+""
+@attribute
+icrash.concepts.primarytypes.classes.clReport.location
+""
+@attribute
+icrash.concepts.primarytypes.classes.clReport.status
+""
+@attribute
+icrash.concepts.primarytypes.classes.clReport.type
+""
+@attribute
+icrash.concepts.primarytypes.classes.clReport.information
+""
+@endAttributes
+@operation
+icrash.concepts.primarytypes.classes.clReport.init
+""
+@endOperations

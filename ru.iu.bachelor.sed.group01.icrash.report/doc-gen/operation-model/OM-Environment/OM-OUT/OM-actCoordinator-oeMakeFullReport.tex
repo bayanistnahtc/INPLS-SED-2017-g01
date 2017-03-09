@@ -1,0 +1,97 @@
+\subsection{Operation Model for oeMakeFullReport}
+
+\label{OM-oeMakeFullReport}
+
+
+The \msrcode{oeMakeFullReport} operation has the following properties:
+
+	\begin{operationmodel}
+	\addheading{Operation}
+	\adddoublerow{oeMakeFullReport}{
+	 }
+
+	\addrowheading{Parameters}
+	\addnumbereddoublerow{}{AdtCrisisID: dtCrisisID}{} 
+	\addnumbereddoublerow{}{AdtEmail: dtEmail}{} 
+
+	\addrowheading{Return type}
+	\addsinglerow{ptBoolean}
+
+	\addrowheading{Pre-Condition (protocol)}
+	\addnumberedsinglerow{PreP}{ }
+		
+	\addrowheading{Pre-Condition (functional)}
+	\addnumberedsinglerow{PreF}{ }
+
+	\addrowheading{Post-Condition (functional)}
+	\addnumberedsinglerow{PostF}{ }
+
+	\addrowheading{Post-Condition (protocol)}
+	\addnumberedsinglerow{PostP}{ }
+	\end{operationmodel}
+
+
+
+	% ------------------------------------------
+	% MCL Listing
+	% ------------------------------------------
+	\vspace{1cm}
+	The listing~\ref{OM-actCoordinator-oeMakeFullReport-MCL-LST} provides the \msrmessir (MCL-oriented) specification of the operation.
+	
+	\scriptsize
+	\vspace{0.5cm}
+	\begin{lstlisting}[style=MessirStyle,firstnumber=auto,captionpos=b,caption={\msrmessir (MCL-oriented) specification of the operation \emph{oeMakeFullReport}.},label=OM-actCoordinator-oeMakeFullReport-MCL-LST]
+
+	/* Pre Protocol:*/ 
+	preP{let TheSystem: ctState in
+				  let TheActor:actCoordinator in
+				  
+				  self.rnActor.rnSystem = TheSystem
+				  and self.rnActor = TheActor
+				  
+				/* PreP01 */
+				  and TheSystem.vpStarted = true
+				/* PreP02 */
+				  and TheActor.rnctAuthenticated.vpIsLogged = true}
+	
+	/* Pre Functional:*/
+	preF{let TheSystem: ctState in
+				  let TheActor:actCoordinator in
+				  let ColctCrises:Bag(ctCrisis) in
+				  
+				  self.rnActor.rnSystem = TheSystem
+				  and self.rnActor = TheActor
+				/* PreF01 */
+				  and TheSystem.rnctCrisis->select(id.eq(AdtCrisisID))
+				      = ColctCrises
+				  and ColctCrises->isEmpty() = true}
+	
+	/* Post Functional:*/ 
+	postF{let TheSystem: ctState in
+				  let TheActor:actCoordinator in
+				  let TheclReport:clReport in
+				  self.rnActor.rnSystem = TheSystem
+				  and self.rnActor = TheActor
+				/* PostF01 */
+				  TheclReport.init()
+				/* PostF02 */
+				  and TheclReport.init(AdtReportID,AdtCrisisID,AdtEmail,AdtGPSLocation,AetCrisisStatus,AetCrisisType,AptString)
+				
+	
+				/* PostF03 */  
+				  and TheActor.rnInterfaceIN^ieFullReportMade()}
+	
+	/* Post Protocol:*/ 
+	postP{ true}
+	
+	\end{lstlisting}
+	\normalsize 
+	
+	
+	
+	
+
+
+
+
+

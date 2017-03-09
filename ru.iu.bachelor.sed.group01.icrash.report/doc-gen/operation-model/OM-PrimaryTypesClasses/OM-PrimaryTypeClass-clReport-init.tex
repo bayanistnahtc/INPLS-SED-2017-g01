@@ -1,0 +1,76 @@
+\subsection{Operation Model for init}
+
+\label{OM-init}
+
+
+The \msrcode{init} operation has the following properties:
+
+	\begin{operationmodel}
+	\addheading{Operation}
+	\adddoublerow{init}{
+	used to initialize the current object as a new instance of the clReport type. }
+
+	\addrowheading{Parameters}
+	\addnumbereddoublerow{}{Aid: dtReportID}{} 
+	\addnumbereddoublerow{}{AcrisisID: dtCrisisID}{} 
+	\addnumbereddoublerow{}{Arecipient: dtEmail}{} 
+	\addnumbereddoublerow{}{Alocation: dtGPSLocation}{} 
+	\addnumbereddoublerow{}{Astatus: etCrisisStatus}{} 
+	\addnumbereddoublerow{}{Atype: etCrisisType}{} 
+	\addnumbereddoublerow{}{Ainformation: ptString}{} 
+
+	\addrowheading{Return type}
+	\addsinglerow{ptBoolean}
+
+		
+
+	\addrowheading{Post-Condition (functional)}
+	\addnumberedsinglerow{PostF}{true iff the system poststate includes the current object as a new clReport instance having its attributes equal to the ones provided as parameters. }
+
+	\end{operationmodel}
+
+
+
+	% ------------------------------------------
+	% MCL Listing
+	% ------------------------------------------
+	\vspace{1cm}
+	The listing~\ref{OM-clReport-init-MCL-LST} provides the \msrmessir (MCL-oriented) specification of the operation.
+	
+	\scriptsize
+	\vspace{0.5cm}
+	\begin{lstlisting}[style=MessirStyle,firstnumber=auto,captionpos=b,caption={\msrmessir (MCL-oriented) specification of the operation \emph{init}.},label=OM-clReport-init-MCL-LST]
+
+	
+	
+	/* Post Functional:*/ 
+	postF{if
+						(
+						/* Post F01 */
+						let Self:ctCrisis in
+						Self.id = Aid
+						and Self.crisisID = AcrisisID
+						and Self.recipient = Arecipient
+						and Self.type = Atype
+						and Self.status = Astatus
+						and Self.location = Alocation
+						and Self.information = Ainformation
+						/* Post F02 */
+						and (Self.oclIsNew and self = Self)
+						)
+						then (result = true)
+						else (result = false)
+						endif}
+	
+	
+	\end{lstlisting}
+	\normalsize 
+	
+	
+	
+	
+
+
+
+
+
