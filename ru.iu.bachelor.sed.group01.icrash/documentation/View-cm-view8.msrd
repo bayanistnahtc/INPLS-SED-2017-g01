@@ -1,0 +1,13 @@
+/*
+@author farrukh
+@date Sat Mar 11 23:16:06 MSK 2017
+*/
+
+
+@@view cm-pt-dt-lv-03
+@model Concept
+@level Local
+@sublevel Primary Datatype
+@number 8
+@description ""
+@caption ""
