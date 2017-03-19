@@ -480,6 +480,13 @@
   <semanticResources>concepts/documentation/PrimaryType-Datatype-dtReportID.msrd</semanticResources>
   <semanticResources>operations/concepts/primarytypes-datatypes/primarytypes-datatypes-dtEmail-is.msr</semanticResources>
   <semanticResources>operations/concepts/primarytypes-datatypes/primarytypes-datatypes-dtReportID-is1.msr</semanticResources>
+  <semanticResources>documentation/View-uc-oeMakeFullReport.msrd</semanticResources>
+  <semanticResources>concepts/documentation/PrimaryType-Datatype-dtEmail.msrd</semanticResources>
+  <semanticResources>concepts/documentation/Operation-clReport-init.msrd</semanticResources>
+  <semanticResources>environment/documentation/Operation-actCoordinator-outactCoordinator-oeMakeFullReport.msrd</semanticResources>
+  <semanticResources>usecases/documentation/UseCase-oeMakeFullReport.msrd</semanticResources>
+  <semanticResources>concepts/documentation/PrimaryType-Class-clReport.msrd</semanticResources>
+  <semanticResources>documentation/View-cm-view9.msrd</semanticResources>
   <ownedViews xmi:type="viewpoint:DView" xmi:id="_WzMfgPWqEeSOM9Kfym77Zg">
     <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/lu.uni.lassy.excalibur.ui.viewer/description/excalibur_models.odesign#//@ownedViewpoints[name='msr-viewpoint']"/>
   </ownedViews>

@@ -18,7 +18,8 @@ import icrash.environment
 			Aid:dtReportID,
 			AcrisisID:dtCrisisID,
 			Arecipient:dtEmail, 
-			Alocation:dtGPSLocation, 
+			Alocation:dtGPSLocation,
+			Ainstant:dtDateAndTime , 
 			Astatus:etCrisisStatus, 
 			Atype:etCrisisType, 
 			Ainformation:ptString
@@ -31,9 +32,10 @@ import icrash.environment
 					Self.id = Aid
 					and Self.crisisID = AcrisisID
 					and Self.recipient = Arecipient
+					and Self.location = Alocation
+					and Self.instant = Ainstant
 					and Self.type = Atype
 					and Self.status = Astatus
-					and Self.location = Alocation
 					and Self.information = Ainformation
 					/* Post F02 */
 					and (Self.oclIsNew and self = Self)

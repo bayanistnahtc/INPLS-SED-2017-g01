@@ -1,0 +1,13 @@
+/*
+@author user
+@date Sun Mar 19 21:21:07 MSK 2017
+*/
+
+
+@@view cm-pt-ct-lv-05-partd-clReport
+@model Concept
+@level Local
+@sublevel Primary Class
+@number 9
+@description ""
+@caption ""

@@ -127,14 +127,16 @@ import icrash.concepts.secondarytypes.datatypes
 			attribute crisisID:dtCrisisID
 			attribute recipient:dtEmail
 			attribute location:dtGPSLocation
+			attribute instant:dtDateAndTime
 			attribute status:etCrisisStatus
 			attribute type:etCrisisType
 			attribute information:ptString
-			operation init(
+			operation init( 
 				Aid:dtReportID,
 				AcrisisID:dtCrisisID,
 				Arecipient:dtEmail,
 				Alocation:dtGPSLocation,
+				Ainstant:dtDateAndTime ,
 				Astatus:etCrisisStatus,
 				Atype:etCrisisType,
 				Ainformation:ptString
