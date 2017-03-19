@@ -532,28 +532,28 @@
                 <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YHzv8goOEeeeKdZyBM1XZw"/>
               </children>
               <styles xmi:type="notation:ShapeStyle" xmi:id="_YHrNEAoOEeeeKdZyBM1XZw" fontName="Ubuntu" fontHeight="14"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YHrNEQoOEeeeKdZyBM1XZw" width="150" height="50"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YHrNEQoOEeeeKdZyBM1XZw" x="67" y="90" width="150" height="50"/>
             </children>
             <styles xmi:type="notation:SortingStyle" xmi:id="_YHkfYQoOEeeeKdZyBM1XZw"/>
             <styles xmi:type="notation:FilteringStyle" xmi:id="_YHkfYgoOEeeeKdZyBM1XZw"/>
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_YHeYwQoOEeeeKdZyBM1XZw" fontName="Ubuntu" fontHeight="14"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YHeYwgoOEeeeKdZyBM1XZw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YHeYwgoOEeeeKdZyBM1XZw" x="156" y="-60" width="410"/>
         </children>
         <styles xmi:type="notation:DiagramStyle" xmi:id="_W3VmkgoOEeeeKdZyBM1XZw"/>
         <edges xmi:type="notation:Edge" xmi:id="_YKtS8AoOEeeeKdZyBM1XZw" type="4001" element="_Wqs4yAoOEeeeKdZyBM1XZw" source="_YHqmAAoOEeeeKdZyBM1XZw" target="_W7Do8AoOEeeeKdZyBM1XZw">
           <children xmi:type="notation:Node" xmi:id="_YK0nsAoOEeeeKdZyBM1XZw" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YK0nsQoOEeeeKdZyBM1XZw" y="-10"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YK0nsQoOEeeeKdZyBM1XZw" x="-47" y="-19"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_YK7VYAoOEeeeKdZyBM1XZw" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YK7VYQoOEeeeKdZyBM1XZw" y="10"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YK7VYQoOEeeeKdZyBM1XZw" x="-50" y="19"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_YK9KkAoOEeeeKdZyBM1XZw" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YK9KkQoOEeeeKdZyBM1XZw" y="10"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YK9KkQoOEeeeKdZyBM1XZw" x="-23" y="10"/>
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_YKtS8QoOEeeeKdZyBM1XZw"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_YKtS8goOEeeeKdZyBM1XZw" fontName="Ubuntu" fontHeight="14"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_YKtS8woOEeeeKdZyBM1XZw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_YKtS8woOEeeeKdZyBM1XZw" points="[-5, -25, 278, 1]$[-32, -176, 251, -150]$[-262, -176, 21, -150]$[-279, -57, 4, -31]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_YMLSkAoOEeeeKdZyBM1XZw" id="(0.5,0.5)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_YMLSkQoOEeeeKdZyBM1XZw" id="(0.5,0.5)"/>
         </edges>
@@ -570,6 +570,9 @@
     <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_Wqs4xAoOEeeeKdZyBM1XZw" name="use case system subfunction oeMakeFullReport(AdtCrisisID:dtCrisisID,AdtEmail:dtEmail)">
       <target xmi:type="messir:UseCaseSubfunction" href="usecases/subfunctions-usecases.msr#icrash.usecases.subfunctions.oeMakeFullReport"/>
       <semanticElements xmi:type="messir:UseCaseSubfunction" href="usecases/subfunctions-usecases.msr#icrash.usecases.subfunctions.oeMakeFullReport"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
       <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_Wqs4xQoOEeeeKdZyBM1XZw" labelSize="14" showIcon="false" borderSize="1" borderSizeComputationExpression="1" backgroundColor="114,159,207" foregroundColor="255,255,255">
         <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/lu.uni.lassy.excalibur.ui.viewer/description/excalibur_models.odesign#//@ownedViewpoints[name='msr-viewpoint']/@ownedRepresentations[name='Use_Case_Diagram']/@defaultLayer/@containerMappings[name='UseCaseContainer']/@style"/>
       </ownedStyle>
@@ -577,6 +580,9 @@
       <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_Wqs4xgoOEeeeKdZyBM1XZw" name="oeMakeFullReport" outgoingEdges="_Wqs4yAoOEeeeKdZyBM1XZw" width="15" height="5" resizeKind="NSEW">
         <target xmi:type="messir:UseCaseSubfunction" href="usecases/subfunctions-usecases.msr#icrash.usecases.subfunctions.oeMakeFullReport"/>
         <semanticElements xmi:type="messir:UseCaseSubfunction" href="usecases/subfunctions-usecases.msr#icrash.usecases.subfunctions.oeMakeFullReport"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
         <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_Wqs4xwoOEeeeKdZyBM1XZw" labelSize="14" showIcon="false" borderSize="1" borderSizeComputationExpression="1" labelPosition="node" horizontalDiameter="15" verticalDiameter="5" color="255,245,181">
           <description xmi:type="style:EllipseNodeDescription" href="platform:/plugin/lu.uni.lassy.excalibur.ui.viewer/description/excalibur_models.odesign#//@ownedViewpoints[name='msr-viewpoint']/@ownedRepresentations[name='Use_Case_Diagram']/@defaultLayer/@containerMappings[name='UseCaseContainer']/@subNodeMappings[name='UseCase']/@style"/>
         </ownedStyle>
