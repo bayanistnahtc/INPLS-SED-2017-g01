@@ -488,6 +488,8 @@
     <semanticResources>usecases/documentation/UseCase-oeMakeFullReport.msrd</semanticResources>
     <semanticResources>concepts/documentation/PrimaryType-Class-clReport.msrd</semanticResources>
     <semanticResources>documentation/View-cm-view9.msrd</semanticResources>
+    <semanticResources>concepts/documentation/Operation-dtEmail-is.msrd</semanticResources>
+    <semanticResources>concepts/documentation/Operation-dtReportID-is.msrd</semanticResources>
     <ownedViews xmi:type="viewpoint:DView" xmi:id="_VxVZ4PWqEeSOM9Kfym77Zg">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/lu.uni.lassy.excalibur.ui.viewer/description/excalibur_models.odesign#//@ownedViewpoints[name='msr-viewpoint']"/>
       <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_WpjCMAoOEeeeKdZyBM1XZw" name="uc-oeMakeFullReport" representation="_WqnZMAoOEeeeKdZyBM1XZw">
