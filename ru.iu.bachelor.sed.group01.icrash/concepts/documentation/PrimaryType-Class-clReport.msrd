@@ -1,34 +1,34 @@
-/*
-@author farrukh
-@date Mon Mar 06 17:52:49 MSK 2017
-*/
-
 
 @@Primary Type Class icrash.concepts.primarytypes.classes.clReport
-@description ""
+@description "Used to model a report of the occurred crisis."
 @attribute
 icrash.concepts.primarytypes.classes.clReport.id
-""
+"the report unique identification information."
 @attribute
 icrash.concepts.primarytypes.classes.clReport.crisisID
-""
+"the crisis unique identification information."
 @attribute
 icrash.concepts.primarytypes.classes.clReport.recipient
-""
+"the email address of the recipient of the report."
+@attribute
+icrash.concepts.primarytypes.classes.clReport.instant
+"the date and time at which the first related alert notification has been sent."
 @attribute
 icrash.concepts.primarytypes.classes.clReport.location
-""
+"the position of the crisis equal by the one of the first alert received and associated to
+the crisis."
 @attribute
 icrash.concepts.primarytypes.classes.clReport.status
-""
+"the crisis handling status."
 @attribute
 icrash.concepts.primarytypes.classes.clReport.type
-""
+"an indication of the gravity of the crisis."
 @attribute
 icrash.concepts.primarytypes.classes.clReport.information
-""
+"a textual additional description providing unstructured information on the crisis
+situation."
 @endAttributes
 @operation
 icrash.concepts.primarytypes.classes.clReport.init
-""
+"used to initialize the current object as a new instance of the clReport type."
 @endOperations

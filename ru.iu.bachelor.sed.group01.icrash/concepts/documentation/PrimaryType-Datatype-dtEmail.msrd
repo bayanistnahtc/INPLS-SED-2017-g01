@@ -1,12 +1,12 @@
 /*
-@author farrukh
-@date Mon Mar 06 17:52:52 MSK 2017
+@author user
+@date Mon Apr 09 17:52:52 MSK 2017
 */
 
 
 @@Primary Type Datatype icrash.concepts.primarytypes.datatypes.dtEmail
-@description ""
+@description "a string used to store the email address of the recipient of the crisis report."
 @operation
 icrash.concepts.primarytypes.datatypes.dtEmail.is
-""
+"used to determine which strings are considered as valid dtEmail."
 @endOperations

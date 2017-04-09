@@ -5,8 +5,8 @@
 
 
 @@Primary Type Datatype icrash.concepts.primarytypes.datatypes.dtReportID
-@description ""
+@description " A string used to identify reports."
 @operation
 icrash.concepts.primarytypes.datatypes.dtReportID.is
-""
+"used to determine which strings are considered as valid report identifiers."
 @endOperations

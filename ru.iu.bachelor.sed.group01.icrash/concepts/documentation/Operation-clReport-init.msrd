@@ -1,7 +1,3 @@
-/*
-@author farrukh
-@date Mon Mar 06 17:52:50 MSK 2017
-*/
 
 
 @@Operation
@@ -9,25 +5,30 @@ icrash.concepts.primarytypes.classes.clReport.init
 //parameters
 @parameter
 icrash.concepts.primarytypes.classes.clReport.init.Aid
-""
+"used to initialize the id field"
 @parameter
 icrash.concepts.primarytypes.classes.clReport.init.AcrisisID
-""
+"used to initialize the crisis id field"
 @parameter
 icrash.concepts.primarytypes.classes.clReport.init.Arecipient
-""
+"used to initialize the recipient field"
 @parameter
 icrash.concepts.primarytypes.classes.clReport.init.Alocation
-""
+"used to initialize the location field"
+
+//Ainstant: dtDateAndTime
+@parameter
+icrash.concepts.primarytypes.classes.clReport.init.Ainstant
+"used to initialize the instant field"
 @parameter
 icrash.concepts.primarytypes.classes.clReport.init.Astatus
-""
+"used to initialize the status field"
 @parameter
 icrash.concepts.primarytypes.classes.clReport.init.Atype
-""
+"used to initialize the type field"
 @parameter
 icrash.concepts.primarytypes.classes.clReport.init.Ainformation
-""
+"used to initialize the information field"
 @endParameters
 
 @description "

@@ -1,6 +1,6 @@
 /*
-@author farrukh
-@date Mon Mar 06 17:52:54 MSK 2017
+@author bayanistnahtc
+@date Mon Apr 09 17:52:54 MSK 2017
 */
 
 
@@ -9,29 +9,33 @@ icrash.environment.actCoordinator.outactCoordinator.oeMakeFullReport
 //parameters
 @parameter
 icrash.environment.actCoordinator.outactCoordinator.oeMakeFullReport.AdtCrisisID
-""
+"the identification information used to determine the crisis to report."
 @parameter
 icrash.environment.actCoordinator.outactCoordinator.oeMakeFullReport.AdtEmail
-""
+"the email address of the recipient of the report."
 @endParameters
 
-@description "
- "
+@description "used to show the current situation of the crisis to the recipient"
 //preProtocol descriptions
 @preP
-" "
+"the system is started"
+@preP
+"the coordinator is logged previously and did not log out !"
 @endPreP
 //preFunctional descriptions
 @preF
-" "
+"it is supposed that there cannot exist a clReport instance with the same id attribute than
+the one the coordinator wants to create."
 @endPreF
 //postFunctional descriptions
 @postF 
-" "
+"the environment has a new instance of clReport initialized with the given values"
+@postF 
+"the coordinator is informed about the satisfaction of its request"
 @endPostF
 //postProtocol descriptions
 @postP 
 " "
 @endPostP
 //example
-@example" "
+//@example" "

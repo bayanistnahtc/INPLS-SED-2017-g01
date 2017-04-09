@@ -920,6 +920,15 @@
     <semanticResources>concepts/documentation/PrimaryType-Datatype-dtReportID.msrd</semanticResources>
     <semanticResources>operations/concepts/primarytypes-datatypes/primarytypes-datatypes-dtEmail-is.msr</semanticResources>
     <semanticResources>operations/concepts/primarytypes-datatypes/primarytypes-datatypes-dtReportID-is1.msr</semanticResources>
+    <semanticResources>concepts/documentation/Operation-clReport-init.msrd</semanticResources>
+    <semanticResources>concepts/documentation/Operation-dtEmail-is.msrd</semanticResources>
+    <semanticResources>concepts/documentation/Operation-dtReportID-is.msrd</semanticResources>
+    <semanticResources>concepts/documentation/PrimaryType-Class-clReport.msrd</semanticResources>
+    <semanticResources>concepts/documentation/PrimaryType-Datatype-dtEmail.msrd</semanticResources>
+    <semanticResources>environment/documentation/Operation-actCoordinator-outactCoordinator-oeMakeFullReport.msrd</semanticResources>
+    <semanticResources>usecases/documentation/UseCase-oeMakeFullReport.msrd</semanticResources>
+    <semanticResources>documentation/View-cm-view8.msrd</semanticResources>
+    <semanticResources>documentation/View-cm-view9.msrd</semanticResources>
     <ownedViews xmi:type="viewpoint:DView" xmi:id="_Aguk8EY3EeOwoLagakxXNQ">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/lu.uni.lassy.excalibur.ui.viewer/description/excalibur_models.odesign#//@ownedViewpoints[name='msr-viewpoint']"/>
       <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_8IZyuNKSEeadaP6YRq5p0w" name="cm-pt-ct-gv-01" representation="_frDQIFBBEeOoKst3jxjvgA">
@@ -20188,7 +20197,7 @@
             <styles xmi:type="notation:FilteringStyle" xmi:id="_pjfZwVFtEeOyAb9vFKebug"/>
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_pjfZwlFtEeOyAb9vFKebug" fontName="Lucida Sans" fontHeight="8"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pjfZw1FtEeOyAb9vFKebug" x="36" y="45" width="542" height="250"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pjfZw1FtEeOyAb9vFKebug" x="36" y="12" width="542" height="375"/>
         </children>
         <styles xmi:type="notation:DiagramStyle" xmi:id="_pjfZ9FFtEeOyAb9vFKebug"/>
       </data>

@@ -1,0 +1,13 @@
+/*
+@author user
+@date Sun Apr 09 13:33:55 MSK 2017
+*/
+
+
+@@view cm-pt-ct-lv-05-partd-clReport
+@model Concept
+@level Local
+@sublevel Primary Class
+@number 5
+@description "shows the local view of the clReport primary type class type."
+@caption "local view of the clReport primary type"
