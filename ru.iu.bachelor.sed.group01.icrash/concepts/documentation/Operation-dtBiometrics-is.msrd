@@ -6,11 +6,11 @@
 
 @@Operation
 icrash.concepts.primarytypes.datatypes.dtBiometrics.is
-@description "
- "
+@description "used to determine which couples are considered as valid dtBiometrics values."
 //postFunctional descriptions
 @postF 
-" "
+"if the values corresponds to the right couple for biometric  
+then the operation returns the ptBoolean true, else the ptBoolean false."
 @endPostF
 //example
 @example" "

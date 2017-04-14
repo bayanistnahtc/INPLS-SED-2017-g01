@@ -5,12 +5,12 @@
 
 
 @@Secondary Type Datatype icrash.concepts.secondarytypes.datatypes.dtSpeechRecord
-@description ""
+@description "a datatype made of a record value used to determine human's voice"
 @attribute
 icrash.concepts.secondarytypes.datatypes.dtSpeechRecord.value
-""
+"the textual information."
 @endAttributes
 @operation
 icrash.concepts.secondarytypes.datatypes.dtSpeechRecord.is
-""
+"used to determine which record are considered as valid human voice."
 @endOperations

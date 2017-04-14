@@ -6,11 +6,11 @@
 
 @@Operation
 icrash.concepts.secondarytypes.datatypes.dtSpeechRecord.is
-@description "
- "
+@description "used to determine which record are considered as valid human speech record"
 //postFunctional descriptions
 @postF 
-" "
+"if the speech frequency is no less than 300 Hz and no greater than 3400 Hz
+ then the operation returns the ptBoolean true, else the ptBoolean false."
 @endPostF
 //example
 @example" "

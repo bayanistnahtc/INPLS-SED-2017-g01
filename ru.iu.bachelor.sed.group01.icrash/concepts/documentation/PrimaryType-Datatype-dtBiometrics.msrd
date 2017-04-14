@@ -5,12 +5,12 @@
 
 
 @@Primary Type Datatype icrash.concepts.primarytypes.datatypes.dtBiometrics
-@description ""
+@description "used to define human's biometric parameters to identify a person"
 @attribute
 icrash.concepts.primarytypes.datatypes.dtBiometrics.speechRecord
-""
+"for the speech record of authenticated user"
 @endAttributes
 @operation
 icrash.concepts.primarytypes.datatypes.dtBiometrics.is
-""
+"used to determine which couples are considered as valid dtBiometrics values."
 @endOperations

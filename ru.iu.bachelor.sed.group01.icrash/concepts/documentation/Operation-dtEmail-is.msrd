@@ -1,16 +1,16 @@
 /*
-@author farrukh
+@author bayanist
 @date Mon Mar 06 17:52:53 MSK 2017
 */
 
 
 @@Operation
 icrash.concepts.primarytypes.datatypes.dtEmail.is
-@description "
- "
+@description "used to determine which strings are considered as valid email."
 //postFunctional descriptions
 @postF 
-" "
+"if the string corresponds to the right regular expression for email 
+then the operation returns the ptBoolean true, else the ptBoolean false."
 @endPostF
 //example
-@example" "
+@example""

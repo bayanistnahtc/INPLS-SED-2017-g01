@@ -1,11 +1,11 @@
 /*
-@author farrukh
-@date Mon Mar 06 17:52:55 MSK 2017
+@author user
+@date Mon Apr 09 17:52:55 MSK 2017
 */
 
 
 @@Use Case Subfunction icrash.usecases.subfunctions.oeMakeFullReport
-@description ""
+@description "goal is to send the textual information available for a crisis"
 @parameter icrash.usecases.subfunctions.oeMakeFullReport.AdtCrisisID ""
 @parameter icrash.usecases.subfunctions.oeMakeFullReport.AdtEmail ""
 @endParameters
