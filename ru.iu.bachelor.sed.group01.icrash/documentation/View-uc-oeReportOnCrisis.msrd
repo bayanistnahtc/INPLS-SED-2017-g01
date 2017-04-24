@@ -1,0 +1,10 @@
+/*
+@author user
+@date Mon Apr 24 01:29:44 MSK 2017
+*/
+
+
+@@view uc-oeReportOnCrisis
+@model Use-Case icrash.usecases.subfunctions.oeReportOnCrisis 
+@description ""
+@caption ""

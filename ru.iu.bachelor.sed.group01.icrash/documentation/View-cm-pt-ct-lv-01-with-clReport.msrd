@@ -1,0 +1,15 @@
+/*
+@author user
+@date Mon Apr 24 21:54:46 MSK 2017
+*/
+
+
+@@view cm-pt-ct-lv-01-with-clReport
+@model Concept
+@level Local
+@sublevel Primary Class
+@number 8
+
+@description ""
+@caption ""
+@scale MaxWidth

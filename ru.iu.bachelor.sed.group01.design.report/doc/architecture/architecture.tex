@@ -19,6 +19,27 @@ the deployment infrastructure and how they are interconnected. A processing node
 corresponds to a piece of hardware aimed at executing either the whole software
 system or a sub-part of it.
 
+The \textbf{iCrash} has Client-Server architecture.
+The diagram \ref{fig:deploy-diagram} represents the components that the
+system consists of.
+The Client–server model is a distributed application structure that partitions
+tasks or workloads between the providers of a resource or service, 
+called servers, and service requesters, called clients. To store the data is
+used MySQL DBMS server.
+
+To connection Server and Database server used JDBC (Java
+DataBase Connectivity) protocol. The protocol is built over TCP/IP network
+protocol.
+Client and Server node use Java RMI protocol to connection. The
+protocol is also built over TCP/IP network protocol.  
+
+\begin{figure}[H]
+	\begin{center}
+	  \includegraphics[width=450px]{images/architecture/deployment-view/deployment_view.eps}
+	  \caption{Deployment Diagram}
+	  \label{fig:deploy-diagram}
+	\end{center}
+\end{figure}
 
 
 
@@ -27,16 +48,21 @@ The \gls{Implementation View} describes each software system component and how
 they are organised and combined to make the targeted software system.
 
 
+\subsection{Client}
 
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.9\textwidth]{./images/architecture/impl_view_client.eps}
+	\caption{Client component}
+\end{figure}
 
-\subsection{Component xx.yy.zz.c1}
-TODO
+\subsection{Server}
 
-\subsection{Component xx.yy.zz.c2}
-TODO
-
-\subsection{Component xx.yy.zz.c3}
-TODO
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.9\textwidth]{./images/architecture/impl_view_server.eps}
+	\caption{Server component}
+\end{figure}
 
 
 
@@ -59,18 +85,18 @@ them to make so.
 
 
 
-\subsection{UI Processing view for system operation oeSystemOperation1}
-TODO
-
- 
-\subsection{UI Processing view for system operation oeSystemOperation2}
-TODO
-
-
-\subsection{UI Processing view for system operation oeSystemOperation3}
-TODO
-
-
+% \subsection{UI Processing view for system operation oeSystemOperation1}
+% TODO
+% 
+%  
+% \subsection{UI Processing view for system operation oeSystemOperation2}
+% TODO
+% 
+% 
+% \subsection{UI Processing view for system operation oeSystemOperation3}
+% TODO
+% 
+% 
 
 
 
@@ -80,18 +106,21 @@ textual information regarding concurrency, distribution, performance and scalabi
 
 
 \subsection{Performance}
-TODO
-
+Java programming language allows achieve high performance  through 
+the optimization of the code in the required environment.
 
 
 \subsection{Concurrency and Parallelism}
-TODO
-
+The application may handle requests from different active actors in parallel, 
+it provided by Java and MySQL database provide parallelism of the system 
+to handle requests in parallel.
 
 
 
 \subsection{Scalability}
-TODO
+The system supports vertical scalability that means, that additional performance 
+boost may be achieved by using more powerful hardware. Horizontal scalability is
+possible only for database.
 
 
 

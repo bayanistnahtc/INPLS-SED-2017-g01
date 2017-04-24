@@ -28,19 +28,20 @@
 \glsXpageXglsnumberformat{}{9}}}\glsgroupskip
 \glsgroupheading{D}\relax\glsresetentrylist
 \glossentry{Deployment View}{\glossaryentrynumbers{\relax 
-\glsXpageXglsnumberformat{}{13}}}\glsgroupskip
+\glsXpageXglsnumberformat{}{17}}}\glsgroupskip
 \glsgroupheading{E}\relax\glsresetentrylist
 \glossentry{Environment Model}{\glossaryentrynumbers{\relax 
 \glsXpageXglsnumberformat{}{9}}}\glsgroupskip
 \glsgroupheading{I}\relax\glsresetentrylist
 \glossentry{Implementation View}{\glossaryentrynumbers{\relax 
-\glsXpageXglsnumberformat{}{13}}}\glsgroupskip
+\glsXpageXglsnumberformat{}{17}\delimN 
+\glsXpageXglsnumberformat{}{18}}}\glsgroupskip
 \glsgroupheading{S}\relax\glsresetentrylist
 \glossentry{system operation}{\glossaryentrynumbers{\relax 
 \glsXpageXglsnumberformat{}{8}\delimN 
-\glsXpageXglsnumberformat{}{15}}}\glsgroupskip
+\glsXpageXglsnumberformat{}{21}}}\glsgroupskip
 \glsgroupheading{U}\relax\glsresetentrylist
 \glossentry{UI Processing View}{\glossaryentrynumbers{\relax 
-\glsXpageXglsnumberformat{}{13}\delimN 
-\glsXpageXglsnumberformat{}{14}}}%
+\glsXpageXglsnumberformat{}{17}\delimN 
+\glsXpageXglsnumberformat{}{18}}}%
 \end{theglossary}\glossarypostamble

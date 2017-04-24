@@ -1,0 +1,10 @@
+/*
+@author user
+@date Mon Apr 24 00:09:45 MSK 2017
+*/
+
+
+@@view operation-scope-outactAdministrator-oeAddCoordinator
+@model Operation icrash.environment.actAdministrator.outactAdministrator.oeAddCoordinator 
+@description ""
+@caption ""

@@ -1,0 +1,10 @@
+/*
+@author user
+@date Sun Apr 23 23:17:25 MSK 2017
+*/
+
+
+@@view operation-scope-outactAdministrator-oeDeleteCoordinator
+@model Operation icrash.environment.actAdministrator.outactAdministrator.oeDeleteCoordinator 
+@description ""
+@caption ""

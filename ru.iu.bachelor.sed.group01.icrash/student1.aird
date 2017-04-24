@@ -473,6 +473,8 @@
   <semanticResources>usecases/documentation/UseCase-oeMakeFullReport.msrd</semanticResources>
   <semanticResources>documentation/View-cm-view8.msrd</semanticResources>
   <semanticResources>documentation/View-cm-view9.msrd</semanticResources>
+  <semanticResources>documentation/View-oeMakeFullReport.msrd</semanticResources>
+  <semanticResources>documentation/View-cm-pt-ct-lv-01-with-clReport.msrd</semanticResources>
   <ownedViews xmi:type="viewpoint:DView" xmi:id="_UmILAPWqEeSOM9Kfym77Zg">
     <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/lu.uni.lassy.excalibur.ui.viewer/description/excalibur_models.odesign#//@ownedViewpoints[name='msr-viewpoint']"/>
   </ownedViews>

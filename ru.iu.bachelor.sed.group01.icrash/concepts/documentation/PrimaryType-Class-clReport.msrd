@@ -1,6 +1,8 @@
 
 @@Primary Type Class icrash.concepts.primarytypes.classes.clReport
-@description "Used to model a report of the occurred crisis."
+@description "Used to model a report of the occurred crisis. 
+It shows current state of the accident to send the information to appropriate organizations"
+
 @attribute
 icrash.concepts.primarytypes.classes.clReport.id
 "the report unique identification information."

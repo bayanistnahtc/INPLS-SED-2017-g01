@@ -1,0 +1,10 @@
+/*
+@author user
+@date Thu Apr 20 00:31:12 MSK 2017
+*/
+
+
+@@view uc-oeMakeFullReport
+@model Use-Case icrash.usecases.subfunctions.oeMakeFullReport 
+@description "shows the use case diagram for the oeMakeFullReport subfunction use case"
+@caption "oeMakeFullReport subfunction use case"
